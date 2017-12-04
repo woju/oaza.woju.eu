@@ -1,0 +1,27 @@
+title: Kościoły i kaplice
+---
+sort_key: 40
+---
+_model: place
+---
+body:
+
+Ten dział obejmuje notatki o&nbsp;różnych kościołach, w&nbsp;których zdarzyło mi
+się być ceremoniarzem.
+
+## O stronach kościoła i świata
+
+Są dwie szkoły, jak należy opisywać strony w&nbsp;kościele, a&nbsp;zwłaszcza
+„lewo” i&nbsp;„prawo”. Większość ludzi, która o&nbsp;tym nie myśli, mówi tak,
+jak widzi, czyli od strony nawy. Ci, co coś tam o&nbsp;liturgii wiedzą, używają
+tych terminów względem ołtarza. Ten ostatni sposób, mimo że teoretycznie
+poprawny, ma dwie poważne wady: po pierwsze, strony są zamienione względem tego,
+co się patrzy, a&nbsp;po drugie, potencjalnie jeszcze gorzej, *nomenklatura się
+zmieniła* po Soborze (tzn. ci pierwsi wcześniej mieli świętą rację). Dlatego
+tutaj używam kierunków świata, kategorii „wschód”/„zachód”, ponieważ te są
+w&nbsp;miarę niezależne od punktu widzenia i&nbsp;prawie się nie zmieniają
+w&nbsp;czasie. Skutek uboczny jest taki, że eliminuje z&nbsp;dyskursu tych, co
+z&nbsp;różnych przyczyn nie wiedzą, gdzie jest północ. „Lewo” i „prawo” nadaje
+się dobrze tylko do opisywania trasy procesji.
+
+<!-- vim: set ft=markdown tw=80 ts=2 sts=2 sw=2 et : -->

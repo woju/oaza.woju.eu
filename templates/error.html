@@ -1,0 +1,12 @@
+{% extends "layout.html" %}
+{% block title %}{{ this.message }}{% endblock %}
+{% block body %}
+  <div class="http-error">
+    <span>{{ this.number }}</span>
+    {{ this.message }}
+  </div>
+
+  <p style="text-align: center">
+    {{ this.body }}
+  </p>
+{% endblock %}

@@ -1,0 +1,73 @@
+title: Liturgia Godzin
+---
+sort_key: 30
+---
+body:
+
+<!-- TODO zdjęcie brewiarza @foto +fig -->
+
+<table>
+  <tr><th>                              <th> Wezwanie              <th> Godzina Czytań        <th>  (Wigilia)            <th>  Jutrznia             <th>  M. w ciągu dnia      <th>  Nieszpory            <th>  Kompleta             <td>
+  <tr><th>Początek                      <td> Panie, otwórz         <td> Boże, wejrzyj         <th>                       <td> Boże, wejrzyj         <td> Boże, wejrzyj         <td> Boże, wejrzyj         <td> Boże, wejrzyj         <td>
+  <tr><th>Rachunek sumienia             <th>                       <th>                       <th>                       <th>                       <th>                       <th>                       <td> +                     <td>
+  <tr><th>Hymn                          <th>                       <td> +                     <th>                       <td> +                     <td> +                     <td> +                     <td> +                     <td>
+  <tr><th>Psalmodia                     <td> Ps95/100/24/67        <td> Ps Ps Ps              <td> ST ST ST              <td> Ps ST Ps              <td> Ps Ps Ps              <td> Ps Ps NT              <td> Ps (Ps)               <td>
+  <tr><th>Werset                        <th>                       <td> +                     <th>                       <th>                       <th>                       <th>                       <th>                       <td>
+  <tr><th>Czytania                      <th>                       <td> B H                   <td> E                     <td> B                     <td> B                     <td> B                     <td> B                     <td>
+  <tr><th>Homilia                       <th>                       <th>                       <th>                       <td> (+)((po dłuższym czytaniu)) <th>                 <td> (+)((po dłuższym czytaniu)) <td>                 <td>
+  <tr><th>Responsorium                  <th>                       <td> po każdym czytaniu    <th>                       <td> krótkie (albo pieśń)  <td> werset                <td> krótkie               <td> krótkie (W ręce)      <td>
+  <tr><th>Prośby                        <th>                       <th>                       <th>                       <td> o uświęcenie dnia pracy <th>                     <td> błagania wstawiennicze <th>                      <td>
+  <tr><th>Modlitwa Pańska               <th>                       <th>                       <th>                       <td> +                     <th>                       <td> +                     <th>                       <td>
+  <tr><th>Pieśń/Hymn                    <th>                       <td> (Ciebie, Boga)((w niedzielę i uroczystości))  <th>                       <td> Kantyk Zachariasza    <th>                       <td> Pieśń Maryi           <td> Kantyk Symeona        <td>
+  <tr><th>Modlitwa końcowa (Módlmy się) <th>                       <td> +                     <th>                       <td> -                     <td> +                     <td> -                     <td> +                     <td>
+  <tr><th>Konkluzja                     <th>                       <td> długa                 <th>                       <td> długa                 <td> krótka                <td> długa                 <td> krótka                <td>
+  <tr><th>Zakończenie (cywilne)         <th>                       <td> Błogosławmy Panu      <th>                       <td> Niech nas błogosławi  <td> Błogosławmy Panu      <td> Niech nas błogosławi  <td> Noc spokojną          <td>
+  <tr><th>Antyfona końcowa do NMP       <th>                       <th>                       <th>                       <th>                       <th>                       <td> (+)((można, jeśli Nieszpory są odmawiane wspólnie, a Kompleta indywidualnie)) <td> +                     <td>
+</table>
+
+Czytanie: B --- z Biblii; H --- hagiograficzne; E --- Ewangelia z dnia
+
+# łączenie Jutrzni lub Nieszporów z Mszą św.
+
+OWLG 93-99
+
+Trzeba uważać na Nieszpory, czy nie są I Nieszporami niedzieli lub uroczystości
+dnia następnego.
+
+# Jutrznia lub Nieszpory przed Mszą św.
+
+<table>
+  <tr><th>Msza bez LG                   <th>sposób świąteczny     <th>sposób powszedni
+  <tr><td colspan="2">ant./pieśń na procesję wejścia                        <td>Boże wejrzyj
+  <tr><td colspan="2">                                                      <td>Hymn (LG)
+  <tr><th>                              <td colspan="2">psalmodia
+  <tr><td>akt pokuty                    <th colspan="2">
+  <tr><td>Kyrie                         <th colspan="2">
+  <tr><td colspan="2"> Gloria                                               <td>(powszedni?)
+  <tr><td colspan="3"> kolekta
+  <tr><td colspan="3"> Liturgia Słowa
+  <tr><td> modlitwa wiernych             <td colspan="2"> (modlitwa z LG)
+  <tr><td colspan="3"> Liturgia Eucharystyczna
+  <tr><td> pieśń na dziękczynienie       <td colspan="2"> pieśń z Ewangelii
+  <tr><td colspan="3"> modlitwa po komunii
+  <tr><td colspan="3"> błogosławieństwo
+</table>
+
+# Nieszpory lub Modlitwa w ciągu dnia po Mszy św.
+
+<table>
+  <tr><th>Msza bez N    <th>N po Mszy     <th>N bez Mszy
+  <tr><td>...           <th>              <th>
+  <tr><td colspan="2">modlitwa po Komunii           <th>
+  <tr><th>              <th>              <td>Boże wejrzyj
+  <tr><th>              <th>              <td>Hymn
+  <tr><th>              <td colspan="2">psalmodia
+  <tr><th>              <th>              <td>czytanie
+  <tr><th>              <td colspan="2">(Magnificat)
+  <tr><th>              <th>              <td>(prośby)
+  <tr><th>              <th>              <td>(Ojcze Nasz)
+  <tr><th>              <td colspan="2">modlitwa końcowa
+  <tr><th colspan="3">rozesłanie
+</table>
+
+<!-- vim: set ft=markdown tw=80 ts=2 sts=2 sw=2 et : -->

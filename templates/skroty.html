@@ -1,0 +1,10 @@
+{% extends "layout.html" %}
+{% block body %}
+  <h2>Wykaz skrótów</h2>
+  {% for dt, dd in bag('abbr').items() %}
+    <dt id="{{ dt }}">{{ dt }}</dt>
+    <dd>{{ dd }}</dd>
+  {% endfor %}
+{% endblock %}
+
+{# vim: set ts=2 sts=2 sw=2 et : #}

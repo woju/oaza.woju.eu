@@ -1,0 +1,27 @@
+{% extends "layout.html" %}
+{#
+{% block nav %}
+  {% set siblings = this.get_siblings() %}
+  <div style="display: flex; justify-content: {% if siblings.prev_page %}space-between{% else %}flex-end{% endif %};">
+    {% if siblings.prev_page %}
+      <a href="{{ siblings.prev_page | url }}">&larr; {{ siblings.prev_page.title }}</a>
+    {% endif %}
+
+    {% if siblings.next_page %}
+      <a href="{{ siblings.next_page | url }}">{{ siblings.next_page.title }} &rarr;</a>
+    {% endif %}
+  </div>
+{% endblock %}
+#}
+{% block body %}
+  <article>
+    <header>
+      <h1>{{ this.title }}</h1>
+    </header>
+
+    {{ this.body }}
+    {{ this.checklist }}
+  </article>
+{% endblock %}
+
+{#- vim: set ts=2 sts=2 sw=2 et : #}

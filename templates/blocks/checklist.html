@@ -1,0 +1,12 @@
+<section>
+{% if this.title -%}
+<header><h2>{{ this.title }}</h2></header>
+{% endif %}
+<ul class="checklist">
+{% for item in this.checklist %}
+    <li>{{ item | markdown }}</li>
+{% endfor %}
+</ul>
+</section>
+
+{# vim: set ft=jinja ts=2 sts=2 sw=2 et : #}

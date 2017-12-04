@@ -1,0 +1,16 @@
+{% extends "layout.html" %}
+
+{% block body %}
+  <article>
+    <header>
+      <h1>{{ this.title }}</h1>
+      {% if this.subtitle %}
+        <p>{{ this.subtitle }}</p>
+      {% endif %}
+    </header>
+
+    {{ this.body }}
+  </article>
+{% endblock %}
+
+{#- vim: set ts=2 sts=2 sw=2 et : #}

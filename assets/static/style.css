@@ -1,0 +1,553 @@
+/*
+ * colours:
+ * #0774bd blue
+ * #02992e green
+ * #bdba07 yellow
+ * #d97c00 orange
+ * #bd010b red
+ */
+
+/* LAYOUT {{{1 */
+
+html {
+    background: url('foska-back-right.svg') no-repeat fixed;
+    background-size: 500px;
+    background-position: right top;
+
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 0 auto;
+    padding: 0;
+    display: flex;
+    min-height: 100vh;
+    flex-flow: column nowrap;
+    max-width: 1000px;
+}
+
+.layout {
+    flex: 1;
+    display: flex;
+    flex-flow: row nowrap;
+}
+
+/* nav {{{2 */
+
+.layout>nav {
+    flex: 0;
+    min-width: 250px;
+}
+
+.nav-logo {
+    height: 120px;
+    display: flex;
+    flex-flow: row;
+    justify-content: space-around;
+}
+
+.nav-logo img {
+    height: 100%;
+}
+
+/* nav {{{2 */
+
+.layout>nav ul {
+    margin: 0;
+    padding: 0;
+}
+
+/*
+.layout>nav li {
+    display: block;
+}
+*/
+
+.layout>nav a, .layout>nav span {
+    display: block;
+    margin: 0;
+    padding: 3px;
+}
+
+.layout>nav ul ul {
+    padding-left: 10px;
+}
+
+.layout>nav ul ul a, .layout>nav ul ul span {
+    padding: 2px;
+}
+
+.nav-trigger {
+    display: block;
+    position: absolute;
+    width: 0;
+    height: 0;
+    clip: rect(0, 0, 0, 0);
+}
+
+/* main {{{2 */
+
+main {
+    flex: 1;
+}
+
+/* header {{{2 */
+
+/* what did this do?
+nav>header {
+    display: flex;
+    flex-flow: row;
+}
+*/
+
+main>header {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    min-height: 120px;
+}
+
+main>header nav {
+    flex: 0 50px;
+    align-self: stretch;
+    padding: 0 10px;
+
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+main>header ul {
+    flex: 1;
+    margin: 0;
+
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+}
+
+main>header li a {
+    display: block;
+    white-space: nowrap;
+    margin: 0;
+    padding: 6px;
+}
+
+main>header h1 {
+    margin: 0;
+    margin-top: 10px;
+}
+main>header p {
+    margin: 0;
+    margin-bottom: 12px;
+}
+
+.search {
+    margin: 0;
+}
+
+
+/* footer {{{2 */
+
+body>footer {
+    margin: 0;
+    margin-top: 50px;
+    padding: 20px 0;
+    clear: both;
+    text-align: center;
+}
+
+body>footer a {
+    color: #fff;
+    text-decoration: none;
+}
+body>footer a:hover {
+    text-decoration: underline;
+}
+
+body>footer nav {
+    display: flex;
+    justify-content: space-around;
+    flex-flow: row;
+    text-align: left;
+}
+
+body>footer nav div {
+    margin-top: 32px;
+}
+
+body>footer nav ul {
+    list-style-type: none;
+    margin: 0;
+    margin-top: 8px;
+    padding: 0;
+}
+
+
+/* KOLORY, TEKST ETC. {{{1 */
+
+body {
+    font-family: 'Linux Libertine';
+    font-size: 18px;
+}
+
+
+/* header {{{2 */
+
+main>header {
+    background: #fff;
+}
+
+main>header h1 {
+    font-family: 'Linux Libertine';
+    font-weight: normal;
+    font-variant: small-caps;
+}
+main>header p {
+    font-family: 'Linux Libertine';
+    font-size: 1.2em;
+    font-variant: small-caps;
+    color: #bd010b;
+}
+
+
+main>header nav {
+    background-color: #0774bd;
+}
+
+main>header li {
+    border-right: 1px solid #fff;
+}
+main>header li:last-child {
+    border-right: 0;
+}
+
+main>header li.active {
+    background-color: #fff;
+}
+
+main>header a {
+    color: #fff;
+    text-decoration: none;
+    font-family: 'Linux Biolinum';
+}
+
+main>header a:hover {
+    text-decoration: underline;
+}
+
+main>header li.active a {
+    color: #0774bd;
+    text-decoration: underline;
+}
+
+main>header ul {
+    list-style: none;
+    padding: 0;
+}
+
+
+/* nav {{{2 */
+
+.layout>nav {
+    font-family: 'Linux Biolinum';
+}
+
+.layout>nav ul {
+    list-style: none;
+}
+
+.layout>nav>ul {
+    padding-right: 10px;
+}
+
+.layout>nav a {
+    color: #0774bd;
+    text-decoration: none;
+}
+.layout>nav a:hover {
+    text-decoration: underline;
+}
+
+.layout>nav li.active>a {
+    background-color: #0774bd;
+    color: #fff;
+}
+
+.layout>nav a, .layout>nav span {
+    font-weight: bold;
+}
+.layout>nav ul ul a, .layout>nav ul ul span {
+    font-weight: normal;
+}
+
+/*
+.main>nav li.parent {
+    border-top: 1px solid #0774bd;
+    border-bottom: 1px solid #0774bd;
+}
+*/
+
+/* footer {{{2 */
+
+body>footer {
+    background: #0774bd;
+    color: #fff;
+}
+
+body>footer {
+    font-family: 'Linux Biolinum';
+}
+
+body>footer a {
+    font-variant: small-caps;
+}
+
+body>footer nav li a {
+    font-variant: none;
+}
+
+
+
+/* main {{{2 */
+
+article {
+    padding: 0 20px;
+}
+
+article a {
+    color: #02992e;
+    text-decoration: none;
+}
+article a:hover {
+    text-decoration: underline;
+}
+
+article ul {
+    list-style-type: square;
+}
+
+article i {
+    /* rubryka */
+    color: #bd010b;
+    font-style: normal;
+}
+
+article p {
+    margin: 12px 0;
+    text-align: justify;
+}
+
+article pre {
+    font-size: 14px;
+}
+
+article figcaption {
+    color: #666;
+    text-align: center;
+    font-size: 0.9em;
+}
+
+
+article>header h1 {
+    font-family: 'Linux Biolinum';
+    font-variant: small-caps;
+    margin: 0;
+    clear: both;
+    font-size: 1.2em;
+}
+
+article>h1, section>h1 {
+    font-family: 'Linux Biolinum';
+    font-size: 1.1em;
+    font-variant: small-caps;
+}
+
+article h2 {
+    font-family: 'Linux Biolinum';
+    font-variant: small-caps;
+    font-size: 1em;
+    color: #bd010b;
+}
+
+article h3 {
+    font-variant: small-caps;
+}
+
+article h4, article h5, article h6 {
+    font-family: 'Linux Biolinum';
+    margin: 8px 0;
+    margin-top: 20px;
+}
+
+/* pod różne konkretne rzeczy {{{3 */
+
+/* /koscioly, /osrodki */
+.map {
+    width: calc(100% + 40px);
+    height: 300px;
+    margin-left: -20px;
+}
+
+/* /skroty */
+main dt {
+    color: #bd010b;
+}
+main dd {
+}
+
+/* /error */
+.http-error {
+    font-size: 2.5em;
+    font-variant: small-caps;
+    text-align: center;
+}
+.http-error span {
+    color: #bd010b;
+}
+
+/* /listy-kontrolne */
+li>p {
+    margin: 0;
+}
+
+/* UNSORTED {{{1 */
+
+/* mobile */
+
+@media screen and (max-width: 800px) {
+    main {
+        min-width: 100vw;
+        flex: 0;
+    }
+    main>header {
+        position: fixed;
+        width: 100vw;
+        min-height: 12mm;
+        margin: 0;
+        box-shadow: 0 0 4px #000;
+        margin: 0;
+        padding: 0;
+        z-index: 2001;
+        justify-content: space-around;
+    }
+
+    /* hamburger */
+    label[for="nav-trigger"] {
+        position: fixed;
+        z-index: 2002;
+        top: 0;
+        left: 0;
+        width: 12mm;
+        height: 12mm;
+        cursor: pointer;
+
+        background: no-repeat center url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' version='1.1' x='0mm' y='0mm' width='7mm' height='7mm' viewBox='0 0 30 30' enable-background='new 0 0 30 30' xml:space='preserve'><rect width='30' height='6'/><rect y='24' width='30' height='6'/><rect y='12' width='30' height='6'/></svg>");
+    }
+
+    .layout>nav {
+        display: none;
+    }
+    .nav-trigger:checked ~ nav {
+        display: inherit;
+        position: absolute;
+        width: 80vw;
+        background-color: #fff;
+        box-shadow: 0 0 20vw #000;
+        padding-top: 12mm;
+        z-index: 2000;
+    }
+    .nav-logo {
+        display: none;
+    }
+
+    main>header h1 {
+        margin: 0;
+        font-size: 8mm;
+
+    }
+
+
+    main>article:nth-child(2) {
+        margin-top: 18mm;
+    }
+
+    main>header>p {
+        display: none;
+    }
+    main>header nav {
+        display: none;
+    }
+
+    body>footer nav {
+        flex-flow: row wrap;
+        justify-content: stretch;
+    }
+
+    body>footer nav>* {
+        margin: 0 3mm;
+    }
+
+}
+
+/* big screen */
+
+/*
+@media screen and (min-width: 800px) {
+    main>header {
+        margin-top: 20px;
+        background: url('logo.svg') no-repeat;
+    }
+
+    main>header>h1,
+    main>header>p,
+    header nav {
+        margin-left: 180px;
+    }
+
+    .map {
+        margin: 2px;
+        margin-bottom: 10px;
+        margin-left: 10px;
+        width: 400px;
+        float: right;
+        clear: both;
+        box-shadow: 0 0 4px #000;
+    }
+}
+*/
+
+/* print */
+
+@media print {
+    body {
+        display: block;
+        min-height: 0;
+    }
+    main>header {
+        margin: 0;
+        display: block;
+        min-height: 0;
+    }
+    nav, footer nav {
+        display: none;
+    }
+}
+
+/*
+ * fonts and colours
+ */
+
+/*
+
+@media screen and (min-width: 800px) {
+    main>header>h1 {
+        font-size: 48px;
+    }
+}
+
+
+
+/* vim: set fdm=marker ts=4 sts=4 sw=4 et : */

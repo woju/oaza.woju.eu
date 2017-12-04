@@ -1,0 +1,12 @@
+{% set cssid = 'map-node-%d'|format(this.node) -%}
+
+<div id="{{ cssid }}" class="map"></div>
+<script type="text/javascript">
+  var map = createMapnikMap('{{ cssid }}');
+  addOSMNode(map, {{ this.node }}, {{ this.zoomlevel or 14}});
+{%- if this.border_id %}
+  addGeoJSON(map, 'border-{{ this.border_id }}.json', borderOptions);
+{%- endif %}
+</script>
+
+{#- vim: set ts=2 sts=2 sw=2 et : #}

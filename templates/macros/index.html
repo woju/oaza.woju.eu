@@ -1,0 +1,79 @@
+{#
+{% macro title(self) %}
+  {% if 'useparent' in self.indexoptions and self.parent.children.count() == 1 %}
+    {{ title(self.parent) }}
+  {% else %}
+    <li><a href="{{ self | url }}">{{ self.record_label }}</a></li>
+  {% endif %}
+{% endmacro %}
+
+{% macro deepindex(self) %}
+{% endmacro %}
+
+{% macro index_place(self) %}
+  {% if 'noindex' not in self.indexoptions and self.children %}
+    <ul>
+      {% for child in self.children recursive %}
+        {% if 'force' not in child.indexoptions and child.children.count() == 1 %}
+          {{ loop(child.children) }}
+        {% else %}
+          {{ title(child) }}
+          <ul>
+            {{ loop(child.children) }}
+          </ul>
+        {% endif %}
+      {% endfor %}
+    </ul>
+  {% endif %}
+{% endmacro %}
+
+{% macro breadcrumbs(self) %}
+  {% if 'break-crumbs' not in self.indexoptions and 'break-crumbs' not in self.parent.indexoptions %}
+    {{ do_breadcrumbs(self) }}
+  {% endif %}
+{% endmacro %}
+
+{% macro do_breadcrumbs(self) %}
+  {% if self.parent and 'break-crumbs' not in self.parent.indexoptions %}
+    {{ do_breadcrumbs(self.parent) }} <strong>/</strong>
+  {% endif %}
+  <a href="{{ self | url }}">{{ self.breadcrumb or self.record_label }}</a>
+{% endmacro %}
+
+#}
+
+{% macro menu(self) %}
+  <ul>
+    <li{% if self._path == '/' %} class="active"{% endif %}>
+      <a href="{{ '/'|url }}">Wstęp</a>
+    </li>
+
+    {% for record in site.get('/').children
+        .include_undiscoverable(True) recursive %}
+      {% if (record.is_discoverable or self.is_child_of(record)) and not record._model in ['error-index'] %}
+        <li class="
+            {%- if record in site.get('/').children and self.is_child_of(record, strict=True) %}parent {% endif %}
+            {%- if self == record %}active {% endif %}">
+
+          {% set label = record.title_menu or record.title or record.record_label %}
+          {% set record_has_body = record.body or record.checklist or record.churches or record._model == 'none' %}
+
+          {% if record_has_body %}
+            <a href="{{ record|url }}">{{ label }}</a>
+          {% else %}
+            <span>{{ label }}</span>
+          {% endif %}
+
+          {% if record.children.include_undiscoverable(True)
+              and ((not record_has_body) or self.is_child_of(record)) %}
+            <ul>
+              {{ loop(record.children.include_undiscoverable(True)) }}
+            </ul>
+          {% endif %}
+        </li>
+      {% endif %}
+    {% endfor %}
+  </ul>
+{% endmacro %}
+
+{#- vim: set ft=jinja ts=2 sts=2 sw=2 et : #}

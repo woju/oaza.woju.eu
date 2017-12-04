@@ -1,0 +1,99 @@
+{% import 'macros/index.html' as index -%}
+
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width; initial-scale=1" />
+    <link rel="stylesheet" href="{{ '/static/style.css'|url }}" />
+    <link rel="stylesheet" href="{{ '/static/fonts/fonts.css'|url }}" />
+    {% block head %}{% endblock %}
+    <title>{% block title %}{% if this.title %}{{ this.title }} &bullet; {% endif %}Notatnik liturgisty{% endblock %}</title>
+
+    <meta name="author" content="Wojciech Porczyk" />
+    <meta name="generator" content="lektor" />
+    {% if this.meta_description %}
+      <meta name="description" content="{{ this.meta_description }}" />
+    {% endif %}
+    {% if this.meta_keywords %}
+      <meta name="keywords" content="{{ this.meta_keywords }}" />
+    {% endif %}
+  </head>
+
+  <body>
+    <div class="layout">
+      <input type="checkbox" id="nav-trigger" class="nav-trigger">
+      <label for="nav-trigger"></label>
+      <nav>
+        <div class="nav-logo">
+          <img src="{{ '/static/logo.svg'|url }}" alt="Logo">
+        </div>
+
+        {{ index.menu(this) }}
+
+        <ul>
+          <span>Ta strona</span>
+          <ul>
+            <li><a href="https://github.com/woju/oaza.woju.eu/tree/master/content{{ this._path }}/contents.lr">Źródło</a></li>
+          </ul>
+        </ul>
+      </nav>
+
+      <main>
+        <header>
+          <nav>
+            <ul>
+              {% for href, title in [
+                ['/rekolekcje/', 'Rekolekcje'],
+                ['/celebracje/', 'Ceremoniały'],
+                ['/listy-kontrolne/', 'Listy kontrolne'],
+                ['/koscioly/', 'Kościoły'],
+                ['/osrodki/', 'Ośrodki'],
+              ] %}
+                <li{% if this.is_child_of(href) %} class="active"{% endif
+                  %}><a href="{{ href|url }}">{{ title }}</a></li>
+              {% endfor %}
+            </ul>
+
+            <form action="https://duckduckgo.com/" method="get" class="search">
+              <input type="hidden" name="sites" value="oaza.woju.eu">
+              <input type="text" name="q" placeholder="DuckDuckGo&hellip;">
+              <button type="submit">Szukaj!</button>
+            </form>
+          </nav>
+
+          <h1>Notatnik liturgisty</h1>
+          <p>Wszystko się zdarza sługom ołtarza</p>
+        </header>
+
+        {% block body %}{% endblock %}
+      </main>
+    </div>
+
+    <footer>
+      {% block footer %}
+        <section>
+        Copyright &copy; 2012-{{ now|datetimeformat('yyyy') }}
+        <a href="mailto:w porczyk warszawa oaza pl">Wojtek Porczyk</a>, DDL Archidiecezji Warszawskiej
+        </section>
+
+        <nav>
+          {% for section, links in bag('footer').items() %}
+            {% set href, text = section.split(maxsplit=1) -%}
+
+            <div>
+              <a href="{{ href | url }}">{{ text | safe }}</a>
+              <ul>
+                {% for href, text in links.items() -%}
+                  <li><a href="{{ href | url }}">{{ text | safe }}</a></li>
+                {% endfor %}
+              </ul>
+            </div>
+          {% endfor %}
+        </nav>
+      {% endblock %}
+    </footer>
+  </body>
+</html>
+
+{#- vim: set ft=jinja ts=2 sts=2 sw=2 et : #}

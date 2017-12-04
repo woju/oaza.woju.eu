@@ -1,0 +1,10 @@
+{% extends "page.html" %}
+{% block index %}
+  <ul>
+  {% for child in this.children %}
+    <li><a href="{{ child | url }}">{{ child.title }}</a></li>
+  {% endfor %}
+  </ul>
+{% endblock %}
+
+{#- vim: set ts=2 sts=2 sw=2 et : #}

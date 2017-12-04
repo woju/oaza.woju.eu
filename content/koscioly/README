@@ -1,0 +1,21 @@
+# sort_key
+
+kraje:
+* Polska                        0
+* inne                          10
+
+diecezje:
+* Warszawa, Rzym, ...           0
+* archidiecezje                 10
+* diecezje                      20
+* ordynariat polowy, eparchie, ...     30
+
+dekanaty:
+* staromiejski                  0
+* warszawskie                   10
+* pozawarszawskie               20
+
+parafie:
+* siedziba dziekana             0
+* diecezjalne                   10
+* zakonne                       20

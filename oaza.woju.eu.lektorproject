@@ -1,0 +1,5 @@
+[project]
+name = Notatnik liturgisty
+locale = pl_PL.UTF-8
+url_style = absolute
+excluded_assets = README*

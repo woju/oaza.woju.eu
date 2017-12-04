@@ -1,0 +1,16 @@
+_model: error
+---
+number: 401
+---
+message: authorization required
+---
+body:
+
+<figure>
+    <img src="/static/images/katecheza20.jpg" />
+    <figcaption>
+        http://remekdabrowski.pl/2011/11/katecheza-2-0.html
+    </figcaption>
+</figure>
+
+<!-- vim: set ts=4 sts=4 sw=4 et : -->

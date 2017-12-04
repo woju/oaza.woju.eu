@@ -1,0 +1,20 @@
+_model: error
+---
+_hidden: no
+---
+number: 404
+---
+message: not found
+---
+body:
+
+<figure>
+    <img src="/static/images/chartres-pusty-grob.jpg" style="width: 100% "/>
+    <figcaption>
+        Pusty grób (fragment witraża z&nbsp;katedry w&nbsp;Chartres).
+        https://commons.wikimedia.org/wiki/File:Chartres-051_-_e2_-_Resurrection_-_tombeau_vide.jpg
+    </figcaption>
+</figure>
+
+<!-- TODO pusty grób albo puste tabernakulum @foto +fig -->
+<!-- vim: set ts=4 sts=4 sw=4 et : -->

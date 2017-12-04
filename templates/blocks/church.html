@@ -1,0 +1,14 @@
+<article>
+  <header>
+    <h1>{{ this.title }}</h1>
+    {% if this.subtitle %}
+      <p>{{ this.subtitle }}</p>
+    {% endif %}
+  </header>
+
+  {{ this.map }}
+  {{ this.body }}
+  {#<div style="clear: both;"></div>#}
+</article>
+
+{#- vim: set ft=jinja ts=2 sts=2 sw=2 et : #}
