@@ -31,12 +31,6 @@
 
         {{ index.menu(this) }}
 
-        <ul>
-          <span>Ta strona</span>
-          <ul>
-            <li><a href="https://github.com/woju/oaza.woju.eu/tree/master/content{{ this._path }}/contents.lr">Źródło</a></li>
-          </ul>
-        </ul>
       </nav>
 
       <main>
@@ -67,6 +61,16 @@
         </header>
 
         {% block body %}{% endblock %}
+
+        <footer>
+          <a href="https://github.com/woju/oaza.woju.eu/tree/master/content{{ this._path }}/contents.lr">źródło tej strony</a>
+          {% set revision = last_revision(this) %}
+          {% if revision %}
+            (ostatnia zmiana:
+              <a href="https://github.com/woju/oaza.woju.eu/commit/{{ revision.commit }}">
+                {{ revision.timestamp.strftime('%e.%m.%Y') }}</a>)
+          {% endif %}
+        </footer>
       </main>
     </div>
 
