@@ -1,0 +1,38 @@
+sort_key (artykuły będą nie wszystkie/łączone, p. TODO)
+
+    100 OBRZĘDY WSTĘPNE
+    110 procesja wejścia
+    120 znak krzyża, pozdrowienie, komentarz celebransa
+    130 akt pokuty
+    140 Kyrie
+    150 Gloria
+    160 kolekta
+    
+    200 LITURGIA SŁOWA
+    210 czytanie 1
+    220 psalm responsoryjny
+    230 czytanie 2
+    240 aklamacja
+    250 Ewangelia
+    260 Homilia
+    270 Credo
+    280 modlitwa powszechna
+    
+    300 LITURGIA EUCHARYSTYCZNA
+    305 przygotowanie ołtarza
+    310 procesja z darami
+    315 przygotowanie darów
+    318 Modlitwa nad darami
+    320 Modlitwa Eucharystyczna
+    330 Modlitwa Pańska
+    340 znak pokoju
+    350 zmieszanie postaci
+    360 Komunia
+    365 puryfikacja
+    370 pieśń na uwielbienie
+    380 modlitwa po Komunii
+
+    400 OBRZĘDY ZAKOŃCZENIA
+    410 ogłoszenia
+    420 błogosławieństwo
+    430 procesja wyjścia
