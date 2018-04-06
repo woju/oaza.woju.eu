@@ -1,3 +1,14 @@
 title: Dekanat ursynowski
 ---
 sort_key: 10
+---
+body:
+
+<figure>
+    <img src="dzwony.jpg" style="width: 100% "/>
+    <figcaption>
+        Marek Raczkowski, „Przekrój” 30/2009
+    </figcaption>
+</figure>
+
+<!-- vim: set ft=markdown ts=4 sts=4 sw=4 et : -->
