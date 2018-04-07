@@ -70,4 +70,5 @@ dnia następnego.
   <tr><th colspan="3">rozesłanie
 </table>
 
-<!-- vim: set ft=markdown tw=80 ts=2 sts=2 sw=2 et : -->
+---
+vim: ft=markdown tw=80 ts=4 sts=4 sw=4 et

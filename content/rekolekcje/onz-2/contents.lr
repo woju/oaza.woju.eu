@@ -46,5 +46,5 @@ arkusz to kartka A4 poziomo, a&nbsp;strony na arkuszu powinny być 3×1.
 Książka proponowana na pogodne wieczory („Pustynia” J.&nbsp;Dobraczyńskiego)
 jest fajna, ale audiobuk jest beznadziejny.
 
-
-<!-- vim: set ft=markdown tw=80 : -->
+---
+vim: ft=markdown tw=80 ts=4 sts=4 sw=4 et

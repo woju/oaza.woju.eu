@@ -33,4 +33,5 @@ rzeczy, które trzeba non-stop przypominać.
 
 - udział diakonii (niech będzie chłopak i&nbsp;dziewczyna)
 
-<!-- vim: set ft=markdown ts=4 sts=4 sw=4 et : -->
+---
+vim: ft=markdown tw=80 ts=4 sts=4 sw=4 et

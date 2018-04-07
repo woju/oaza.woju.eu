@@ -54,4 +54,5 @@ Jak się nie używa dzwonków, dobrze jest je sprzątnąć.
 
 Ewangeliarz zostaje na ambonie albo trzeba go odnieść do zakrystii.
 
-<!-- vim: set ft=markdown tw=80 : -->
+---
+vim: ft=markdown tw=80 ts=4 sts=4 sw=4 et

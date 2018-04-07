@@ -80,4 +80,5 @@ Jest spora szansa, że będzie kłopot. Czynnikami niesprzyjającymi są:
 Można te kłopoty przewidzieć i&nbsp;po prostu **zaniechać ukłonu na koniec**.
 W&nbsp;ten sposób unika się bałaganu w&nbsp;procesji.
 
-<!-- vim: set ft=markdown tw=80 : -->
+---
+vim: ft=markdown tw=80 ts=4 sts=4 sw=4 et

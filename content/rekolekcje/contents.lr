@@ -104,4 +104,5 @@ Powyższy podział nie ma na celu wyrównania obciążenia pomiędzy poszczegól
 grupy (może być tak, że niektóre grupy potrzebują więcej czasu, aby wypełnić
 posługi z&nbsp;grafiku).
 
-<!-- vim: set ft=markdown tw=80 : -->
+---
+vim: ft=markdown tw=80 ts=4 sts=4 sw=4 et

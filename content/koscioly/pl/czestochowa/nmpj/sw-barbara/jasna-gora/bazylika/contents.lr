@@ -207,4 +207,5 @@ Krzyż odnosi się do zakrystii. Świece lądują na stopniach przed ołtarzem
 (ceremoniał KO przewiduje, że się je gasi i&nbsp;stawia pod ścianą, ale to można
 zrobić inaczej).
 
-<!-- vim: set ft=markdown ts=4 sts=4 sw=4 et : -->
+---
+vim: ft=markdown tw=80 ts=4 sts=4 sw=4 et

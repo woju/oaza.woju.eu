@@ -64,4 +64,5 @@ koncelebransami?) po każdej stronie i&nbsp;tamtędy odsyłać ludzi.
 
 [cyrk]: http://www.sejm.gov.pl/
 
-<!-- vim: set ft=markdown ts=4 sts=4 sw=4 et : -->
+---
+vim: ft=markdown tw=80 ts=4 sts=4 sw=4 et

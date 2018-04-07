@@ -7,4 +7,5 @@ body:
 Tutaj są różne rzeczy, które wpadają, jak mi się coś przypomni, a nie ma gdzie
 tego napisać. Może kiedyś przerobię to na bloga alboco.
 
-<!-- vim: set ft=markdown tw=80 : -->
+---
+vim: ft=markdown tw=80 ts=4 sts=4 sw=4 et

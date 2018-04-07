@@ -13,4 +13,5 @@ body:
     </figcaption>
 </figure>
 
-<!-- vim: set ts=4 sts=4 sw=4 et : -->
+---
+vim: ft=markdown tw=80 ts=4 sts=4 sw=4 et
