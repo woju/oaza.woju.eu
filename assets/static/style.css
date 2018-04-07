@@ -343,6 +343,14 @@ article pre {
     font-size: 14px;
 }
 
+figure {
+    text-align: center;
+}
+
+figure img {
+    width: 100%;
+}
+
 figcaption {
     color: #666;
     text-align: center;
@@ -413,10 +421,11 @@ main dd {
 }
 
 /* /error */
-.http-error {
+.http-error header {
     font-size: 2.5em;
     font-variant: small-caps;
     text-align: center;
+    margin: 1rem;
 }
 .http-error span {
     color: #bd010b;
@@ -440,7 +449,6 @@ li>p {
         position: fixed;
         width: 100vw;
         min-height: 12mm;
-        margin: 0;
         box-shadow: 0 0 4px #000;
         margin: 0;
         padding: 0;

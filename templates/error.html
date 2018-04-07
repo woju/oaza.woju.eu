@@ -1,12 +1,14 @@
 {% extends "layout.html" %}
 {% block title %}{{ this.message }}{% endblock %}
 {% block body %}
-  <div class="http-error">
-    <span>{{ this.number }}</span>
-    {{ this.message }}
-  </div>
+  <article class="http-error">
+    <header>
+      <span>{{ this.number }}</span>
+      {{ this.message }}
+    </header>
 
-  {{ this.body }}
+    {{ this.body }}
+  </article>
 {% endblock %}
 
 {# vim: set ts=2 sts=2 sw=2 et : #}

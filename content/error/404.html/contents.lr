@@ -9,12 +9,12 @@ message: not found
 body:
 
 <figure>
-    <img src="/static/images/chartres-pusty-grob.jpg" style="width: 100% "/>
+    <img src="/error/_404.html/drei-marien-am-grab.jpg"/>
     <figcaption>
-        Pusty grób (fragment witraża z&nbsp;katedry w&nbsp;Chartres).
-        https://commons.wikimedia.org/wiki/File:Chartres-051_-_e2_-_Resurrection_-_tombeau_vide.jpg
+        „Die drei Marien am Grab” (1815/1822)<br/>
+        Peter von Cornelius<br/>
+        [ze zbiorów Nowej Pinakoteki (Monachium)](https://www.sammlung.pinakothek.de/en/bookmark/artwork/ZnxwzbO4Xg)
     </figcaption>
 </figure>
 
-<!-- TODO pusty grób albo puste tabernakulum @foto +fig -->
 <!-- vim: set ts=4 sts=4 sw=4 et : -->
