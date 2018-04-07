@@ -1,4 +1,5 @@
 {% import 'macros/index.html' as index -%}
+{% set github_repo = 'https://github.com/woju/oaza.woju.eu' -%}
 
 <!doctype html>
 <html>
@@ -63,12 +64,14 @@
         {% block body %}{% endblock %}
 
         <footer>
-          <a href="https://github.com/woju/oaza.woju.eu/tree/master/content{{ this._path }}/contents.lr">źródło tej strony</a>
+          <a href="{{ github_repo }}/tree/master/content{{ this._path }}/contents.lr">
+            źródło tej strony</a>
           {% set revision = last_revision(this) %}
           {% if revision %}
-            (ostatnia zmiana:
-              <a href="https://github.com/woju/oaza.woju.eu/commit/{{ revision.commit }}">
-                {{ revision.timestamp.strftime('%e.%m.%Y') }}</a>)
+            (<a href="{{ github_repo }}/commits/master/content{{ this._path }}"
+              >historia zmian</a>; ostatnia zmiana:
+            <a href="{{ github_repo }}/commit/{{ revision.commit }}">
+              {{ revision.timestamp.strftime('%e.%m.%Y') }}</a>)
           {% endif %}
         </footer>
       </main>
