@@ -1,0 +1,55 @@
+title: Parafia św. Anny w Piasecznie
+---
+sort_key: 0
+---
+body:
+
+---
+churches:
+
+#### church ####
+title: Kościół św. Anny
+----
+map:
+
+##### osm-way #####
+way: 235876487
+-----
+zoomlevel: 14
+-----
+border_id: 9730
+----
+body:
+
+# Przestrzeń
+
+- prezbiterium jest ciasnawe, a&nbsp;jeszcze schola się zwykle rozstawia naokoło
+  ambony, i&nbsp;ciężko jest ich przestawić tak, żeby było miejsce na świece pod
+  amboną
+- na co dzień za miejsce przewodniczenia służy ambona; jest niby mikrofon, który
+  do tego służy, ale nie ma gdzie postawić pulpitu; mikrofon jest używalny nawet
+  kiedy schola go zabierze, bo można im go zabierać i&nbsp;oddawać
+- procesja wejścia cztery warianty: 
+  - długi: z&nbsp;zakrystii przez małą kruchtę na zewnątrz, w&nbsp;lewo wzdłuż
+    ściany kościoła, głównym wejściem i&nbsp;nawą do prezbiterium
+  - półdługi: z&nbsp;zakrystii do kaplicy, potem na moment za zewnątrz, do
+    głównych drzwi i&nbsp;dalej jak długim (do użytku jak pada, ale się chce
+    wejść długim)
+  - średni: z&nbsp;zakrystii do kaplicy, potem do bocznej nawy, w&nbsp;prawo
+    wzdłuż ściany pod chór i&nbsp;środkową nawą do prezbiterium 
+  - krótki: z&nbsp;zakrystii do małej kruchty i&nbsp;przed ołtarz
+- sygnaturka jest przy portalu między prezbiterium a&nbsp;małą kruchtą
+- krzyż stoi w&nbsp;małej kruchcie
+- świece procesyjne są w&nbsp;sali nad zakrystią; powinno się je wynosić do
+  małej kruchty, ale czasem stawiają je obok kredensji i&nbsp;przed Ewangelią
+  zapalają na widoku
+- uważaj przy chodzeniu między ołtarzem a&nbsp;kredensją, bo się można potknąć
+  o&nbsp;dzwonki
+
+- procesja z&nbsp;darami startuje na jednym z&nbsp;bocznych ołtarzy
+- ewangeliarz odnosi się na stary ołtarz
+
+
+
+---
+vim: ft=markdown tw=80 ts=4 sts=4 sw=4 et
