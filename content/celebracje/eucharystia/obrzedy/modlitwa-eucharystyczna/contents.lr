@@ -108,10 +108,9 @@ Newralgiczne momenty 1ME:
 - kiedy zadzwonić (uwaga na teksty okresowe)
 
 <figure>
-    <img src="FB_IMG_1519851037827.jpg" style="width: 100% "/>
-    <figcaption>
-        Dziękuję Rafałowi Zdunkowi za podesłanie. :)
-    </figcaption>
+    <img src="FB_IMG_1519851037827.jpg"
+        alt="[Mszał na ołtarzu] I cyk, dwójeczka" />
+    <figcaption>Dziękuję Rafałowi Zdunkowi za podesłanie. :)</figcaption>
 </figure>
 
 ---

@@ -5,10 +5,9 @@ sort_key: 10
 body:
 
 <figure>
-    <img src="dzwony.jpg" style="width: 100% "/>
-    <figcaption>
-        Marek Raczkowski, „Przekrój” 30/2009
-    </figcaption>
+    <img src="dzwony.jpg" alt="[Koło Fortuny. Co o szóstej rano robią dzwony
+        w kościele na Ursynowie? n_p__d_al_ją]" />
+    <figcaption>Marek Raczkowski, „Przekrój” 30/2009</figcaption>
 </figure>
 
 ---

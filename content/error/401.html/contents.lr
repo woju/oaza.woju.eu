@@ -7,10 +7,11 @@ message: authorization required
 body:
 
 <figure>
-    <img src="/static/images/katecheza20.jpg" />
-    <figcaption>
-        http://remekdabrowski.pl/2011/11/katecheza-2-0.html
-    </figcaption>
+    <img src="/static/images/katecheza20.jpg" alt="[ksiądz podczas katechezy]
+        Bóg stworzył raj, ale człowiek popełnił grzech i został wypędzony...
+        [dziecko] Jasne... zawsze winni użytkownicy..."/>
+    <figcaption><a href="http://remekdabrowski.pl/2011/11/katecheza-2-0.html">
+        http://remekdabrowski.pl/2011/11/katecheza-2-0.html</a></figcaption>
 </figure>
 
 ---

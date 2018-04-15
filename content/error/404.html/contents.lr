@@ -9,11 +9,13 @@ message: not found
 body:
 
 <figure>
-    <img src="/error/_404.html/drei-marien-am-grab.jpg"/>
+    <img src="/error/_404.html/drei-marien-am-grab.jpg"
+        alt="[Niewiasty przy grobie]"/>
     <figcaption>
         „Die drei Marien am Grab” (1815/1822)<br/>
         Peter von Cornelius<br/>
-        [ze zbiorów Nowej Pinakoteki (Monachium)](https://www.sammlung.pinakothek.de/en/bookmark/artwork/ZnxwzbO4Xg)
+        <a href="https://www.sammlung.pinakothek.de/en/bookmark/artwork/ZnxwzbO4Xg">
+            ze zbiorów Nowej Pinakoteki (Monachium)</a>
     </figcaption>
 </figure>
 
