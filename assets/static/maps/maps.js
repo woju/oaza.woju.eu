@@ -38,14 +38,15 @@ function addPoint(map, latlng, zoom) {
 
 function getEphemerisPopup(query) {
     return L.popup().setContent(
-        '<form method="get" action="/ephemeris/' + query + '">'
+        '<form method="get" action="/ephemeris/' + query + '.pdf">'
         + '<table>'
         + '<tr><th><label for="first_day">Pierwszy dzień:</label></th>'
         + '<td><input type="date" '
             + 'name="first_day" '
             + 'required '
             + 'pattern="[0-9]{4}(-[0-9]{2}){2}" '
-            + 'placeholder="YYYY-MM-DD"/></td></tr>'
+            + 'placeholder="YYYY-MM-DD"'
+            + 'value="'+ (new Date().toISOString().substr(0, 10)) +'"/></td></tr>'
         + '<tr><th><label for="length">Liczba dni:</label></th>'
         + '<td><input type="number" name="length" value="15" min="1" max="30"/></td></tr>'
         + '<tr><td colspan="2"><input type="submit" value="Kalendarz astronomiczny"/></td></tr></table></form>');

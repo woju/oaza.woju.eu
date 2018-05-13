@@ -1,0 +1,17 @@
+{% macro format_timedelta(delta) -%}
+    {% set minutes = (delta.seconds / 60 )|round -%}
+    {{ '%02d%02d' | format(minutes // 60, minutes % 60) -}}
+{% endmacro -%}
+====================================
+{{ name }}
+{{ lat }} {{ lon }}  {{ ('%s(%s)'|format(element_type, element_id)).rjust(20) }}
+====================================
+YYYYMMDD  DAWN  SUNRISE-  NOON  DAY-
+  -MOON-  DUSK  SUNSET--  MIDN  NGHT
+====================================
+{% for day in days -%}
+{{ day.day.strftime('%Y%m%d') }}  {{ day.dawn.strftime('%H%M') }}  {{ day.sunrise.strftime('%H%M') }} {{ '%03.0f'|format(day.sunrise_az) }}  {{ day.midday.strftime('%H%M') }}  {{ format_timedelta(day.day_length) }}
+  {% if day.moon %}{{ day.moon_phase }} {{ day.moon.strftime('%H%M') }}{% else %}      {% endif %}  {{ day.dusk.strftime('%H%M') }}  {{ day.sunset.strftime('%H%M') }} {{ '%03.0f'|format(day.sunset_az) }}  {{ day.midnight.strftime('%H%M') }}  {{ format_timedelta(day.night_length) }}
+{% endfor -%}
+====================================
+{# vim: set ft=jinja ts=4 sts=4 sw=4 et -#}

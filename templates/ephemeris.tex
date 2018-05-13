@@ -1,0 +1,74 @@
+{% macro format_timedelta(delta) -%}
+    {% set minutes = (delta.seconds / 60 )|round -%}
+    {{ '%02d%02d' | format(minutes // 60, minutes % 60) -}}
+{% endmacro -%}
+
+\setupexternalfigures[directory=/home/woju/liturgia]
+\usemodule[liturgia]
+\setups[layout:recepta]
+\setups[headers:recepta]
+\setupfootertexts[{\tt\tfx {{ lat }} {{ lon }} {{ ('%s(%s)'|format(element_type, element_id)).rjust(20) }} }\hfill\tfx\ss\bf\userpagenumber]
+
+\mainlanguage[pl]
+\starttext
+
+\startsection[title={ {{ name }} }]
+
+
+
+\setupTABLE[leftframe=off,rightframe=off,style=tt,split=repeat]
+\setupTABLE[r][1,2][align=middle]
+\setupTABLE[c][2,5][align=middle,style=\tt\bf]
+\setupTABLE[c][last][width=]
+
+\bTABLE
+\bTABLEhead
+
+\bTR[style={\tt\tfx},bottomframe=off]
+    \bTD[align=flushleft] data\eTD
+    \bTD brzask\eTD
+    \bTD[nc=2] wschód\eTD
+    \bTD południe\eTD
+    \bTD dzień\eTD
+    \bTD[nc=2,align=flushleft] słońce\eTD
+\eTR
+\bTR[style={\tt\tfx},topframe=off]
+    \bTD\eTD
+    \bTD zmierzch\eTD
+    \bTD[nc=2] zachód\eTD
+    \bTD północ\eTD
+    \bTD noc\eTD
+    \bTD[nc=2,align=flushleft] księżyc\eTD
+\eTR
+
+\eTABLEhead
+\bTABLEbody
+
+{% for day in days -%}
+\bTR[bottomframe=off]
+    \bTD {{ day.day.strftime('%Y%m%d') }}\eTD
+    \bTD {{ day.dawn.strftime('%H%M') }}\eTD
+    \bTD {{ day.sunrise.strftime('%H%M') }}\eTD
+    \bTD {{ '%03.0f'|format(day.sunrise_az) }}°\eTD
+    \bTD {{ day.midday.strftime('%H%M') }}\eTD
+    \bTD {{ format_timedelta(day.day_length) }}\eTD
+    \bTD {% if day.sun_t %}{{ day.sun_t.strftime('%H%M') }}{% endif %}\eTD
+    \bTD {% if day.sun_event %}{{ day.sun_event }}{% endif %}\eTD
+\eTR
+\bTR[topframe=off]
+    \bTD\eTD
+    \bTD {{ day.dusk.strftime('%H%M') }}\eTD
+    \bTD {{ day.sunset.strftime('%H%M') }}\eTD
+    \bTD {{ '%03.0f'|format(day.sunset_az) }}°\eTD
+    \bTD {{ day.midnight.strftime('%H%M') }}\eTD
+    \bTD {{ format_timedelta(day.night_length) }}\eTD
+    \bTD {% if day.moon_t %}{{ day.moon_t.strftime('%H%M') }}{% endif %}\eTD
+    \bTD {% if day.moon_phase %}{{ day.moon_phase.tex }}{% endif %}\eTD
+\eTR
+
+{% endfor -%}
+\eTABLEbody
+\eTABLE
+\stoptext
+
+{# vim: set ft=jinja ts=4 sts=4 sw=4 et -#}
