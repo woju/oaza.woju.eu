@@ -1,21 +1,22 @@
-# sort_key
+SORT_KEY:
+* kraje:
+  - 0:  Polska
+  - 10: inne
 
-kraje:
-* Polska                        0
-* inne                          10
+* diecezje:
+  - 0:  Warszawa, Rzym, ...
+  - 10: archidiecezje
+  - 20: diecezje
+  - 30: ordynariat polowy, eparchie, ...
 
-diecezje:
-* Warszawa, Rzym, ...           0
-* archidiecezje                 10
-* diecezje                      20
-* ordynariat polowy, eparchie, ...     30
+* dekanaty:
+  - 0:  staromiejski
+  - 10: warszawskie
+  - 20: pozawarszawskie
 
-dekanaty:
-* staromiejski                  0
-* warszawskie                   10
-* pozawarszawskie               20
+* parafie:
+  - 0:  siedziba dziekana
+  - 10: diecezjalne
+  - 20: zakonne
 
-parafie:
-* siedziba dziekana             0
-* diecezjalne                   10
-* zakonne                       20
+vim: ts=2 sts=2 sw=2 et
