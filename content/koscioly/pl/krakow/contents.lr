@@ -2,9 +2,18 @@ title: Archidiecezja Krakowska
 ---
 subtitle: Archidiœcesis Cracoviensis
 ---
+sort_key: 10
+---
 body:
 
 - [strona archidiecezji](http://diecezja.pl/)
 - [nota w episkopat.pl](http://episkopat.pl/archidiecezja-krakowska/)
+
+<figure>
+    <img src="krakow.jpg" alt="[zdjęcie szare, nic nie widać] Prezydent Krakowa
+    (drugi z lewej) zaprzecza, jakoby w mieście przekroczono dopuszczalne normy
+    zanieczyszczeń powietrza."/>
+</figure>
+
 ---
-sort_key: 10
+vim: ft=markdown tw=80 ts=4 sts=4 sw=4 et
