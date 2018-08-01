@@ -16,15 +16,15 @@ function createMapnikMap(id) {
     var map = L.map(id);
 
     L.control.layers({
-        'Mapnik': L.tileLayer('http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+        'Mapnik': L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
             attribution: '<a href="http://www.openstreetmap.org/">OpenStreetMap contributors</a>'
         }).addTo(map),
-        'Outdoors': L.tileLayer('http://{s}.tile.thunderforest.com/outdoors/{z}/{x}/{y}.png?apikey=5507ff627c0a44dfa87e05c33176152a', {
-            attribution: 'Map data: <a href="http://www.openstreetmap.org/">OpenStreetMap contributors</a>; tiles: <a href="http://thunderforest.com/">Thunderforest</a>.'
+        'Outdoors': L.tileLayer('https://{s}.tile.thunderforest.com/outdoors/{z}/{x}/{y}.png?apikey=5507ff627c0a44dfa87e05c33176152a', {
+            attribution: 'Map data: <a href="https://www.openstreetmap.org/">OpenStreetMap contributors</a>; tiles: <a href="https://thunderforest.com/">Thunderforest</a>.'
     }),
-        'Ortofotomapa': L.tileLayer.wms('http://mapy.geoportal.gov.pl/wss/service/img/guest/ORTO/MapServer/WMSServer', {
+        'Ortofotomapa': L.tileLayer.wms('https://mapy.geoportal.gov.pl/wss/service/img/guest/ORTO/MapServer/WMSServer', {
             layers: 'Raster',
-            attribution: '<a href="http://geoportal.gov.pl/">Geoportal.gov.pl</a>',
+            attribution: '<a href="https://geoportal.gov.pl/">Geoportal.gov.pl</a>',
     }),
     }, {}).addTo(map);
 
