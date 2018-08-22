@@ -1,0 +1,27 @@
+title: Parafia Wszystkich Świętych w Krościenku n/Dunajcem
+---
+title_menu: Krościenko n/Dunajcem
+---
+body:
+
+- https://www.parafiakroscienko.pl/
+- [wizytówka na stronie diecezji](http://www.kroscienko-wiz.diecezja.tarnow.pl/)
+---
+churches:
+
+#### church ####
+title: Kościół pw. Chrystusa Dobrego Pasterza, dolny kościół
+----
+map:
+
+##### osm-way #####
+way: 225771820
+-----
+zoomlevel: 13
+----
+body:
+
+Oazie zdarza się używać dolny kościół, jeśli pada i&nbsp;w&nbsp;Wieczerniku się
+nie da.
+---
+vim: ft=markdown tw=80 ts=4 sts=4 sw=4 et

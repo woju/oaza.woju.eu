@@ -5,7 +5,7 @@ title_menu: Kamienica
 body:
 
 - http://www.parafia-kamienica-tarnow.pl/
-- http://www.diecezja.tarnow.pl/index.php/schematyzm/k/364-kamienica
+- [wizytówka na stronie diecezji](http://www.kamienica-wiz.diecezja.tarnow.pl/)
 
 Odpust: **6 sierpnia** (w&nbsp;trzecim turnusie)
 ---
@@ -41,3 +41,5 @@ body:
 ## Celebracja światła i wody
 
 Można pójść albo nad strumień, albo do fontanny w&nbsp;parku nad strumieniem.
+---
+vim: ft=markdown tw=80 ts=4 sts=4 sw=4 et

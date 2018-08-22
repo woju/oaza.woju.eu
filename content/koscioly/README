@@ -1,3 +1,10 @@
+CO PISAĆ
+- title: możliwie pełny tytuł kościoła
+- subtitle: nazwa w j. oryginalnym (głównie Rzym/Włochy)
+- title_menu: miejscowość albo zwyczajowa nazwa, jeśli miejscowość jest
+  niejednoznaczna
+- sort_key: patrz niżej
+
 SORT_KEY:
 * kraje:
   - 0:  Polska
@@ -19,4 +26,4 @@ SORT_KEY:
   - 10: diecezjalne
   - 20: zakonne
 
-vim: ts=2 sts=2 sw=2 et
+vim: tw=80 ts=2 sts=2 sw=2 et

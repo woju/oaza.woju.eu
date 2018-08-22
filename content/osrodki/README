@@ -1,0 +1,32 @@
+- co należy opisywać:
+  - _slug: nazwa miejscowości (w miejscowym języku)
+  - title: pełna nazwa
+  - title_menu: miejscowość, a jeśli jest więcej niż 1, jakaś nazwa
+  - mapa
+  - body:
+    - ogólny opis
+      - kościół, z którego się korzysta
+        - kościołowi dać linka z powrotem
+      - sklepy
+    - wyprawy otwartych oczu (ONŻ1)
+    - droga krzyżowa (ONŻ1-2)
+    - pascha (ONŻ2)
+    - kościoły stacyjne (ONŻ3)
+    - wycieczki po okolicy:
+      - wycieczka całą oazą (ONŻ)
+      - czas dla rodziny 3h (np. lista Wojewódzkich) (OR)
+      - czas dla rodziny 8h (OR)
+      - warianty dla matek w ciąży i/lub wózków (OR)
+
+- rzeczy, za które potencjalnie można trafić na kiepskie/:
+  - problemy z jedzeniem: mało, niedobre, drogie, zamykana kuchnia, konieczność
+    kupowania posiłków w ośrodku (nie da się samemu robić)
+  - za mała kuchnia
+  - brud
+  - grzyb
+  - nieszczelne okna
+
+- rzeczy, które same w sobie nie powodują trafienia na kiepskie/:
+  - nieprzystosowanie do potrzeb DK
+
+vim: ts=2 sts=2 sw=2 et tw=80
