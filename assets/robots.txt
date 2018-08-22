@@ -1,0 +1,2 @@
+Sitemap: https://oaza.woju.eu/sitemap.xml
+Disallow: /tmp/
