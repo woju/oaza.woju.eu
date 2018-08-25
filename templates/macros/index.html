@@ -48,23 +48,32 @@
       <a href="{{ '/'|url }}">Wstęp</a>
     </li>
 
-    {% for record in site.get('/').children
+    {%- for record in site.get('/').children
         .include_undiscoverable(True) recursive %}
-      {% if (record.is_discoverable or self.is_child_of(record)) and not record._model in ['error-index'] %}
+      {%- if (record.is_discoverable or self.is_child_of(record))
+          and not record._model in ['error-index'] %}
         <li class="
-            {%- if record in site.get('/').children and self.is_child_of(record, strict=True) %}parent {% endif %}
+            {%- if record in site.get('/').children
+                and self.is_child_of(record, strict=True) %}parent {% endif %}
             {%- if self == record %}active {% endif %}">
 
-          {% set label = record.title_menu or record.title or record.record_label %}
-          {% set record_has_body = record.body or record.checklist or record.churches or record._model == 'none' %}
+          {%- set label = record.title_menu
+            or record.title
+            or record.record_label %}
+          {%- set record_has_body = record.body
+            or record.checklist
+            or record.churches
+            or record._model == 'none' %}
 
-          {% if record_has_body %}
-            <a href="{{ record|url }}">{{ label }}</a>
-          {% else %}
+          {%- if record_has_body %}
+            <a href="
+                {{- record|url(absolute=(record._model == 'error') or None) }}">
+              {{- label }}</a>
+          {%- else %}
             <span>{{ label }}</span>
-          {% endif %}
+          {%- endif %}
 
-          {% if record.children.include_undiscoverable(True)
+          {%- if record.children.include_undiscoverable(True)
               and ((not record_has_body) or self.is_child_of(record)) %}
             <ul>
               {{ loop(record.children.include_undiscoverable(True)) }}
@@ -76,4 +85,4 @@
   </ul>
 {% endmacro %}
 
-{#- vim: set ft=jinja ts=2 sts=2 sw=2 et : #}
+{#- vim: set ft=jinja tw=80 ts=2 sts=2 sw=2 et : #}
