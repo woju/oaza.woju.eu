@@ -1,8 +1,9 @@
-ROOT = /var/www/oaza.woju.eu/html
+LEKTOR_OUTPUT_PATH = /var/www/oaza.woju.eu/html
+export LEKTOR_OUTPUT_PATH
 RM ?= rm -f
 
 all:
-	lektor build --output-path $(ROOT) --buildstate-path . $(LEKTOROPTS)
+	lektor build --buildstate-path . $(LEKTOROPTS)
 .PHONY: all
 
 rebuild:
