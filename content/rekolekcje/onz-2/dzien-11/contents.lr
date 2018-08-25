@@ -1,5 +1,7 @@
 title: ONŻ 2°, dzień 11.
 ---
+title_menu: Dzień 11.
+---
 sort_key: 11
 ---
 body:
@@ -52,3 +54,5 @@ na celebracji:
 - W Tobie jest światło
 - Wielkie i dziwne
 - Zrzuć swą troskę na Pana
+---
+vim: ft=markdown tw=80 ts=4 sts=4 sw=4 et
