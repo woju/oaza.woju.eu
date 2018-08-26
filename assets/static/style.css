@@ -357,6 +357,19 @@ figcaption {
     font-size: 0.9em;
 }
 
+article .float {
+    width: 40%;
+    margin-top: 0;
+}
+
+article .float.right {
+    float: right;
+}
+
+article figure.float.right {
+    margin-left: 20px;
+    margin-right: 0;
+}
 
 article>header h1 {
     font-family: 'Linux Biolinum';
