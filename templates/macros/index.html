@@ -45,7 +45,7 @@
 {% macro menu(self) %}
   <ul>
     <li{% if self._path == '/' %} class="active"{% endif %}>
-      <a href="{{ '/'|url }}">Wstęp</a>
+      <a href="{{ '/'|url(absolute=needs_absurl(self)) }}">Wstęp</a>
     </li>
 
     {%- for record in site.get('/').children
@@ -67,7 +67,7 @@
 
           {%- if record_has_body %}
             <a href="
-                {{- record|url(absolute=(record._model == 'error') or None) }}">
+                {{- record|url(absolute=needs_absurl(self)) }}">
               {{- label }}</a>
           {%- else %}
             <span>{{ label }}</span>
