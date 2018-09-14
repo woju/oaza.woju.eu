@@ -141,4 +141,15 @@ zapasowy wosk/parafina
 sztalugi albo podstawka (do ustawiania obrazów, KKK etc.)
 skrzynie/kosze (do przenoszenia zakrystii)
 ---
-body: Zamysłem tej listy jest opis wszelkiego sprzętu, który jest potrzebny do zorganizowania jednej Mszy św., czy to w kościele, czy polowej. Gdzie indziej jest lista [wyposażenia zakrystii](../zakrystia/), która służy więcej niż jednej liturgii. Szczególną uwagę trzeba zachować w kaplicach, które wydają się mieć „wszystko” (więc przychodzi pokusa, żeby któregoś działu nie sprawdzać).
+body:
+
+Zamysłem tej listy jest opis wszelkiego sprzętu, który jest potrzebny do
+zorganizowania jednej Mszy św., czy to w kościele, czy polowej. Gdzie indziej
+jest lista [wyposażenia zakrystii](../zakrystia/), która służy więcej niż
+jednej liturgii. Zobacz też [wersję skróconą](../przed-sygnaturka/), do
+ostatecznego sprawdzenia przed wyruszeniem procesji.
+
+Szczególną uwagę trzeba zachować w kaplicach, które wydają się
+mieć „wszystko” (więc przychodzi pokusa, żeby któregoś działu nie sprawdzać).
+---
+vim: ft=markdown tw=80 ts=4 sts=4 sw=4 et
