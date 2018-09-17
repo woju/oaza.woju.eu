@@ -4,7 +4,12 @@ sort_key: 110
 ---
 body:
 
-<!-- TODO zdjęcie procesji @foto +fig -->
+<figure class="float right">
+<img src="procesja.jpg" alt="[procesja wyjścia]" />
+<figcaption>
+    Procesja wyjścia w&nbsp;Krościenku.
+</figcaption>
+</figure>
 
 Procesja wejścia zależy od wielu czynników. Niektóre z&nbsp;nich:
 - liczba posługujących

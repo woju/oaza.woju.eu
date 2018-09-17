@@ -371,6 +371,15 @@ article figure.float.right {
     margin-right: 0;
 }
 
+article .float.left {
+    float: left;
+}
+
+article figure.float.left {
+    margin-right: 20px;
+    margin-left: 0;
+}
+
 article>header h1 {
     font-family: 'Linux Biolinum';
     font-variant: small-caps;
