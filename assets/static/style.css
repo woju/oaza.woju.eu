@@ -358,7 +358,7 @@ figcaption {
 }
 
 article .float {
-    width: 40%;
+    max-width: 40%;
     margin-top: 0;
 }
 
