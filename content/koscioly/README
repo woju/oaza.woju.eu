@@ -26,4 +26,21 @@ SORT_KEY:
   - 10: diecezjalne
   - 20: zakonne
 
+* Rzym (bo bazyliki)
+  - 0-9: bazyliki większe
+    - 1:  arcybazylika św. Jana na Lateranie
+    - 2:  św. Piotra na Watykanie
+    - 3:  św. Pawła za Murami
+    - 4:  NMP Większej (Śnieżnej)
+  - 10-19: papieska bazylika mniejsza
+    - 11: św. Wawrzyńca za Murami
+    - 12: św. Franciszka (Asyż)
+    - 13: NMP od Aniołów (Asyż)
+  - 20: pontyfikalna bazylika mniejsza (nie są w Rzymie)
+    - 21: św. Mikołaja w Bari
+    - 22: Loreto
+    - 23: św. Antoniego w Padwie
+  - 90: bazyliki mniejsze
+  - 100: inne kościoły
+
 vim: tw=80 ts=2 sts=2 sw=2 et
