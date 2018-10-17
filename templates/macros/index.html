@@ -63,7 +63,7 @@
           {%- set record_has_body = record.body
             or record.checklist
             or record.churches
-            or record._model == 'none' %}
+            or record['_template'] != record.datamodel.get_default_template_name() %}
 
           {%- if record_has_body %}
             <a href="
