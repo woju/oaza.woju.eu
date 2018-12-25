@@ -2,13 +2,6 @@ title: Szkolne Schronisko Młodzieżowe Rajcza-Nickulina
 ---
 title_menu: Rajcza-Nickulina
 ---
-map:
-
-#### osm-way ####
-way: 264734434
-----
-zoomlevel: 12
----
 body:
 
 - http://www.schroniska-ptsm.pl/indx/Rajcza.html
@@ -196,3 +189,10 @@ trasa dla niepełnosprawnych -- można dojeżdżać rozsądnie zawieszonym samoc
 ### problemy (potencjalne) 
 
 - na Laborówce może być trawa po pas
+
+---
+map_way: 264734434
+---
+map_zoomlevel: 12
+---
+vim: ft=markdown tw=80 ts=4 sts=4 sw=4 et

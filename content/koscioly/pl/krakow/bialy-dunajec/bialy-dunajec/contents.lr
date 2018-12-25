@@ -1,4 +1,6 @@
-title: Parafia NMP Królowej Aniołów w Białym Dunajcu
+title: Kościół NMP Królowej Aniołów w Białym Dunajcu
+---
+subtitle: Parafia NMP Królowej Aniołów w Białym Dunajcu
 ---
 title_menu: Biały Dunajec
 ---
@@ -12,20 +14,6 @@ opiekuje się p.&nbsp;kościelny, również życzliwy.
 Ponieważ w&nbsp;Białym Dunajcu jest łomżyńskie zagłębie, naokoło możecie mieć
 kilka oaz i&nbsp;trzeba się umawiać z&nbsp;innymi oazami, kto kiedy używa
 kościoła.
----
-churches:
-
-#### church ####
-title: kościół parafialny
-----
-map:
-
-##### osm-way #####
-way: 217993142
------
-zoomlevel: 12
-----
-body:
 
 # Przestrzeń
 
@@ -33,8 +21,14 @@ Zakrystia jest obok prezbiterium, dość małego ale daje radę. Miejsce
 przewodniczenia niestety tam, gdzie jest, czyli przy ścianie, a&nbsp;do mówienia
 się prawie nadaje, więc lepiej korzystać z&nbsp;ambony.
 
-Wariant sytuacyjny: miejsce przewodniczenia można przestawić na środek, ale
-wtedy trzeba kombinować z&nbsp;procesją z&nbsp;Ewangeliarzem.
+Wariant sytuacyjny: miejsce przewodniczenia można zwyczajem europejskim
+przestawić na środek, ale wtedy trzeba kombinować z&nbsp;procesją
+z&nbsp;Ewangeliarzem. Pewnie musi pójśc górą, po drugiej stronie ołtarza
+i&nbsp;pomiedzy ołtarzem a&nbsp;amboną.
+
+Na miejscu jest ewangeliarz, kadzidło. Świece procesyjne to luźne cpn-ki.
+Paschał stoi obok chrzcielnicy, można go przestawić pod ambonę, ale wtedy nie
+można przechodzić z&nbsp;którejś strony ambony.
 
 # Procesje
 
@@ -52,10 +46,44 @@ kościoła. Wymaga przestawienia ławek.
 
 Wariant watykański, chodzimy po prostej.
 
-## Celebracja światła i wody
+# Celebracja światła i wody
 
-Z&nbsp;kościoła wychodzimy głównym wejściem na ulicę, skręcamy w&nbsp;lewo na most,
-przez most i&nbsp;zaraz za mostem w&nbsp;prawo wzdłuż strumienia do rzeki. Nad
-rzeką w&nbsp;prawo przez jeden z&nbsp;dwóch mostków (lepiej szerszy) i&nbsp;w
-kierunku altanki nad rzeką. Czoło procesji idzie naokoło altanki na dół,
-a&nbsp;wszyscy mogą zostać na górze na poziomie parkingu.
+Z&nbsp;kościoła wychodzimy głównym wejściem na ulicę, skręcamy w&nbsp;lewo na
+most, przez most i&nbsp;zaraz za mostem w&nbsp;prawo wzdłuż strumienia do rzeki.
+Nad rzeką w&nbsp;prawo przez jeden z&nbsp;dwóch mostków (lepiej szerszym)
+i&nbsp;w kierunku altanki nad rzeką. Czoło procesji idzie naokoło altanki na
+dół, a&nbsp;wszyscy mogą zostać na górze na poziomie parkingu.
+
+# Pascha
+
+* Pierwsza stacja w&nbsp;refektarzu.
+* Druga stacja za domem.
+* Potem wychodzimy na Jana Pawła i&nbsp;idziemy na południe do takiego placu
+  przy moście. Idziemy wzdłuż potoku do Zakopianki. Przechodzimy przez
+  Zakopiankę i&nbsp;tory i&nbsp;idziemy prosto, potem po jakimś czasie się
+  skręca w&nbsp;prawo w&nbsp;górę i&nbsp;dość stromą, górską drogą się dochodzi
+  na skraj lasu i&nbsp;dalej na przełaj do asfaltu. Na asfalcie się skręca
+  w&nbsp;prawo i&nbsp;idzie do zakrętu pod wieżą telekomunikacyjną.
+  Trzecia stacja pod BTS-em.
+* Potem idziemy dalej asfaltem, przechodzimy przez tory i&nbsp;DK47, idziemy
+  obok kościoła, przechodzimy przez most i&nbsp;za mostem w&nbsp;prawo
+  w&nbsp;drogę dalej wzdłuż strumienia. Idziemy w&nbsp;górę Białego Dunajca.
+  Czwarta stacja przy brodzie.
+* Potem idziemy dalej, skręcamy w&nbsp;prawo do Jana Pawła i&nbsp;w&nbsp;prawo
+  do kościoła. Piąta stacja (Msza) w&nbsp;Kościele.
+
+## Pascha wątpliwa
+
+<i>Następujący wariant opracowałem, ale noc wcześniej się okazało, że postawili
+zagrodę dla owiec i&nbsp;spuścili psy.</i>
+
+Przez most, w&nbsp;górę na Gliczarów Górny, w&nbsp;prawo przy wyciągu, potem
+prosto granią (uwaga, w&nbsp;jednym miejscu się na moment gubi droga, trzeba
+pójść wzdłuż dwóch krawędzi lasu). Czwarta stacja przy brodzie obok mostu na
+Gliczarów Dolny.
+---
+map_way: 217993142
+---
+map_zoomlevel: 12
+---
+vim: ft=markdown tw=80 ts=4 sts=4 sw=4 et

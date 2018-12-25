@@ -1,27 +1,11 @@
-title: Parafia NMP Królowej Wyznawców na Siekierkach
+title: Kościół pw. NMP Królowej Wyznawców (Sanktuarium Matki Bożej Nauczycielki Młodzieży)
 ---
-subtitle: Sanktuarium Matki Bożej Nauczycielki Młodzieży
+subtitle: Parafia NMP Królowej Wyznawców na Siekierkach
 ---
 body:
 
 - http://archidiecezja.warszawa.pl/parafie/warszawa-nmp-krolowej-wyznawcow-na-siekierkach/
 - http://www.sanktuarium-pijarzy.pl/
----
-churches:
-
-#### church ####
-title: Kościół pw. NMP Królowej Wyznawców
-----
-map:
-
-##### osm-way #####
-way: 28965976
------
-zoomlevel: 13
------
-border_id: 9644
-----
-body:
 
 # Ogólne
 
@@ -54,5 +38,11 @@ Jak się nie używa dzwonków, dobrze jest je sprzątnąć.
 
 Ewangeliarz zostaje na ambonie albo trzeba go odnieść do zakrystii.
 
+---
+map_way: 28965976
+---
+map_zoomlevel: 13
+---
+map_border: 9644
 ---
 vim: ft=markdown tw=80 ts=4 sts=4 sw=4 et

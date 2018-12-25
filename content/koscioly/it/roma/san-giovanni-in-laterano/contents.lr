@@ -4,13 +4,6 @@ subtitle: San Giovanni in Laterano
 ---
 sort_key: 1
 ---
-map:
-
-#### osm-way ####
-way: 25468169
-----
-zoomlevel: 13
----
 body:
 
 Pełna wezwanie: **Arcybazylika Najświętszego Zbawiciela, św. Jana Chrzciciela i św. Jana Ewangelisty na Lateranie**
@@ -30,3 +23,9 @@ Odprawialiśmy w kaplicy po lewej, wschodniej stronie (nie pamiętam, jakie wezw
 - ambona jest po lewej
 
 <img style="width: 100%" src="https://nexus.woju.eu/index.php/apps/gallery/files.public/download/14225?c=3cad654339dab55c1071aa7db093b0aa&requesttoken=dTsjEhlXLwQXWCYTHSBZACVbGydHJkU3HjtjDSd%2BFHY%3D%3A2cDDz%2FgGa9OGNM%2BcPj0H7m1TWH4Ua0PB1cqW90crt8o%3D&token=KsLfzubWt46j6Fv"></img>
+---
+map_way: 25468169
+---
+map_zoomlevel: 13
+---
+vim: ft=markdown tw=80 ts=4 sts=4 sw=4 et

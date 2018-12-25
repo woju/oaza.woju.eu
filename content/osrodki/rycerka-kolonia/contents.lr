@@ -2,18 +2,11 @@ title: Szkolne Schronisko Młodzieżowe Rycerka-Kolonia
 ---
 title_menu: Rycerka-Kolonia
 ---
-map:
-
-#### osm-way ####
-way: 370338090
-----
-zoomlevel: 12
----
 body:
 
 - http://schroniskaptsm.republika.pl/indx/Rycerka.html
 
-Kaplica: [Kaplica pw. św. Józefa w Rycerce Górnej-Kolonii](/koscioly/pl/bielsko-zywiec/milowka/rycerka#kolonia)
+Kaplica: [Kaplica pw. św. Józefa w Rycerce Górnej-Kolonii][kaplica]
 
 # Wyprawy otwartych oczu (ONŻ1)
 
@@ -41,3 +34,11 @@ w dół do szosy i&nbsp;w&nbsp;prawo do ośrodka. Czwarta stacja na brodzie za
 garażami, tam, gdzie Celebracja światła i&nbsp;wody.
 
 Ta trasa ponoć została użyta w&nbsp;2016 roku bez problemów.
+
+[kaplica]: /koscioly/pl/bielsko-zywiec/milowka/rycerka#kolonia
+---
+map_way: 370338090
+---
+map_zoomlevel: 12
+---
+vim: ft=markdown tw=80 ts=4 sts=4 sw=4 et

@@ -2,13 +2,6 @@ title: Restauracja Dworska w Kamienicy
 ---
 title_menu: Kamienica
 ---
-map:
-
-#### osm-way ####
-way: 401900639
-----
-zoomlevel: 13
----
 body:
 
 Kościół: [Przemienienia Pańskiego w&nbsp;Kamienicy](/koscioly/pl/tarnow/lacko/kamienica)
@@ -52,3 +45,9 @@ z&nbsp;krucyfiksem (gdzieś na betonie). Potem idziemy drogą za ośrodkiem pros
 do kościoła.
 
 W&nbsp;kościele parafialnym: 5:15-5:30.
+---
+map_way: 401900639
+---
+map_zoomlevel: 13
+---
+vim: ft=markdown tw=80 ts=4 sts=4 sw=4 et

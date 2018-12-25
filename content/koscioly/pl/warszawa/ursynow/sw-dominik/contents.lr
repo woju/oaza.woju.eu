@@ -1,4 +1,6 @@
-title: Parafia św. Dominika w Warszawie
+title: Kościół św. Dominika
+---
+subtitle: Parafia św. Dominika w Warszawie
 ---
 body:
 
@@ -6,20 +8,6 @@ Jeden z&nbsp;dwóch ośrodków dominikańskich w&nbsp;Warszawie. Robią różne
 rzeczy, w&nbsp;tym duszpasterstwo „Studnia” i&nbsp;ekspresowe (7 tygodni) kursy
 przecimałżeńskie. Oprócz tego mają niezłą scholę, od której się ludzie
 w&nbsp;całym mieście uczą kolejnych utworów.
----
-churches:
-
-#### church ####
-title: Kościół św. Dominika
-----
-map:
-
-##### osm-way #####
-way: 28010953
------
-zoomlevel: 14
-----
-body:
 
 - prezbiterium jest duże i przestronne, trzeba daleko chodzić 
 - kredensje są ukryte w stallach (zajmuje miejsce jednego lub dwóch krzeseł)
@@ -35,3 +23,9 @@ body:
 - wg miejscowego zwyczaju miejsce przewodniczenia jest od ambony, chociaż   
   widziałem stojący mikrofon schowany z tyłu prezbiterium i mszał na miejsce
   przewodniczenia leżący na kredensji...
+---
+map_way: 28010953
+---
+map_zoomlevel: 14
+---
+vim: ft=markdown tw=80 ts=4 sts=4 sw=4 et

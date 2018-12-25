@@ -32,7 +32,7 @@
           <img src="{{ '/static/logo.svg'|url(absolute=needs_absurl(this)) }}" alt="Logo">
         </div>
 
-        {{ index.menu(this) }}
+        {{ index.menu(this, includeroot=True) }}
 
       </nav>
 

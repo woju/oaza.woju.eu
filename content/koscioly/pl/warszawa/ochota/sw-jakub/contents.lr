@@ -1,4 +1,8 @@
-title: Parafia św. Jakuba na Ochocie
+title: Kościół pw. Niepokalanego Poczęcia NMP
+---
+subtitle: Parafia św. Jakuba na Ochocie
+---
+title_menu: św. Jakub
 ---
 sort_key: 0
 ---
@@ -8,22 +12,6 @@ body:
 - http://www.ujakuba.waw.pl/
 - http://dajakub.pl/
 - http://archidiecezja.warszawa.pl/parafie/sw-jakuba-apostola-na-ochocie/
----
-churches:
-
-#### church ####
-title: Kościół pw. Niepokalanego Poczęcia NMP
-----
-map:
-
-##### osm-way #####
-way: 29731215
------
-zoomlevel: 14
------
-border_id: 9579
-----
-body:
 
 Spotkania wspólnoty akademickiej są w&nbsp;poniedziałki o&nbsp;20:00, zwykle
 w&nbsp;sali św.&nbsp;Faustyny. Spotkania grupy dorosłych są we wtorki raz na
@@ -104,5 +92,11 @@ patrz: [Niedziela Palmowa czyli Męki Pańskiej](/celebracje/rok/wielki-post/nie
   będzie kupić ładniejsze obrzędy.
 ---
 indexoptions: force, break-index
+---
+map_way: 29731215
+---
+map_zoomlevel: 14
+---
+map_border: 9579
 ---
 vim: ft=markdown tw=80 ts=4 sts=4 sw=4 et

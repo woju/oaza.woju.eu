@@ -1,13 +1,6 @@
 title: Kaplica cudownego obrazu NMP Częstochowskiej
 ---
-title_menu: Kaplica
----
-map:
-
-#### osm-way ####
-way: 208061809
-----
-zoomlevel: 17
+title_menu: Kaplica cudownego obrazu
 ---
 body:
 
@@ -222,4 +215,8 @@ ludu.
 
 Krzyż i świece się odnosi do zakrystii.
 ---
-breadcrumb: Kaplica cudownego obrazu
+map_way: 208061809
+---
+map_zoomlevel: 17
+---
+vim: ft=markdown tw=80 ts=4 sts=4 sw=4 et

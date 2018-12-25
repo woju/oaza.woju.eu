@@ -1,28 +1,11 @@
-title: Parafia katedralna św. Jana Chrzciciela
+title: Bazylika Archikatedralna pw. św. Jana Chrzciciela
+---
+subtitle: Parafia katedralna św. Jana Chrzciciela
 ---
 body:
 
 - http://archidiecezja.warszawa.pl/parafie/warszawa-bazylika-archikatedralna-sw-jana-chrzciciela/
 - http://www.katedra.mkw.pl/
----
-churches:
-
-#### church ####
-title: Bazylika Archikatedralna pw. św. Jana Chrzciciela
-----
-subtitle: 
-----
-map:
-
-##### osm-way #####
-way: 404052334
------
-zoomlevel: 15
------
-border_id: 9557
-----
-body:
-
 - [panoramki](http://www.katedra.mkw.pl/index.php?option=com_content&view=article&id=1&Itemid=26)
 
 # Ogólne
@@ -85,3 +68,11 @@ więcej w połowie długości kabla (będzie to słychać przez głośniki).
 MM musi też zabezpieczyć drugi mikrofon, bezprzewodowy (najlepiej na kiju,
 o&nbsp;który można poprosić). Jest potrzebny: na początek (moderator wita), na
 Modlitwę Eucharystyczną, przed błogosławieństwem na kwiatki.
+---
+map_way: 404052334
+---
+map_zoomlevel: 15
+---
+map_border: 9557
+---
+vim: ft=markdown tw=80 ts=4 sts=4 sw=4 et

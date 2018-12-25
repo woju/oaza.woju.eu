@@ -4,13 +4,6 @@ subtitle: Santa Maria in Trastevere
 ---
 sort_key: 90
 ---
-map:
-
-#### osm-way ####
-way: 51368975
-----
-zoomlevel: 13
----
 body:
 
 Kościołem opiekuje się wspólnota Sant'Egidio (św. Idziego). Należy do niej
@@ -22,3 +15,9 @@ Glempa.
 
 Kaplica po prawej stronie od wejścia, obok zakrystii. Nie mam notatek, po takim
 czasie już mi było wszystko jedno. Nie różni się specjalnie od innych.
+---
+map_way: 51368975
+---
+map_zoomlevel: 13
+---
+vim: ft=markdown tw=80 ts=4 sts=4 sw=4 et

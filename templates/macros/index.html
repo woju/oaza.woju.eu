@@ -42,14 +42,24 @@
 
 #}
 
-{% macro menu(self) %}
+{% macro label(record) -%}
+  {{ record.title_menu
+  or record.title
+  or record.label -}}
+{% endmacro %}
+{% macro menu(self, root='/', full=False, includeroot=False) %}
+  {%- set rootrecord = site.get(root) %}
   <ul>
-    <li{% if self._path == '/' %} class="active"{% endif %}>
-      <a href="{{ '/'|url(absolute=needs_absurl(self)) }}">Wstęp</a>
+  {% if includeroot %}
+    <li{% if self._path == root %} class="active"{% endif %}>
+      <a href="{{ root|url(absolute=needs_absurl(self)) }}">
+        {{- label(rootrecord) -}}
+      </a>
     </li>
+  {% endif %}
 
-    {%- for record in site.get('/').children
-        .include_undiscoverable(True) recursive %}
+    {%- for record in rootrecord.children.include_undiscoverable(True)
+        recursive %}
       {%- if (record.is_discoverable or self.is_child_of(record))
           and not record._model in ['error-index'] %}
         <li class="
@@ -57,9 +67,6 @@
                 and self.is_child_of(record, strict=True) %}parent {% endif %}
             {%- if self == record %}active {% endif %}">
 
-          {%- set label = record.title_menu
-            or record.title
-            or record.record_label %}
           {%- set record_has_body = record.body
             or record.checklist
             or record.churches
@@ -68,13 +75,13 @@
           {%- if record_has_body %}
             <a href="
                 {{- record|url(absolute=needs_absurl(self)) }}">
-              {{- label }}</a>
+              {{- label(record) }}</a>
           {%- else %}
-            <span>{{ label }}</span>
+            <span>{{ label(record) }}</span>
           {%- endif %}
 
           {%- if record.children.include_undiscoverable(True)
-              and ((not record_has_body) or self.is_child_of(record)) %}
+              and ((not record_has_body) or self.is_child_of(record) or full) %}
             <ul>
               {{ loop(record.children.include_undiscoverable(True)) }}
             </ul>

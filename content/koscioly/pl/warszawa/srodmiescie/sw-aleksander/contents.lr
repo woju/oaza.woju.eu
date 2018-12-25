@@ -1,27 +1,11 @@
-title: Parafia św. Aleksandra na Trakcie Królewskim
+title: Kościół św. Aleksandra na pl. Trzech Krzyży
+---
+subtitle: Parafia św. Aleksandra na Trakcie Królewskim
 ---
 body:
 
 - http://archwwa.pl/parafie/warszawa-sw-aleksandra-na-trakcie-krolewskim/
 - http://www.swaleksander.pl/
----
-churches:
-
-#### church ####
-title: Kościół św. Aleksandra na pl. Trzech Krzyży
-----
-subtitle: 
-----
-map:
-
-##### osm-way #####
-way: 238713516
------
-zoomlevel: 14
------
-border_id: 9558
-----
-body:
 
 Co jakiś czas, jak księdzu generałowi niechybnie przychodzi ochota łamać zasadę
 rozdziału państwa od Kościoła, robi się sympozja w&nbsp;[cyrku][cyrk]
@@ -64,5 +48,11 @@ koncelebransami?) po każdej stronie i&nbsp;tamtędy odsyłać ludzi.
 
 [cyrk]: http://www.sejm.gov.pl/
 
+---
+map_way: 238713516
+---
+zoomlevel: 14
+---
+map_border: 9558
 ---
 vim: ft=markdown tw=80 ts=4 sts=4 sw=4 et

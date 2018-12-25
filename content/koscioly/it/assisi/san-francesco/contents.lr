@@ -2,11 +2,6 @@ title: Bazylika św. Franciszka w Asyżu
 ---
 subtitle: San Francesco in Assisi
 ---
-map:
-
-#### osm-way ####
-way: 34357303
----
 body:
 
 - http://www.sanfrancescoassisi.org/en/
@@ -36,3 +31,7 @@ body:
 Zakrystia to wieszak w kącie przy wejściu i bardzo wygodny stół, na którym można od razu przygotować procesję z darami. Tuż przy drzwiach jest sekretarzyk z wieloma wersjami językowymi, chyba mszału.
 
 ``L1``, ``L2``, ``Ps``, ``Ks`` idą na lewo; ``O1``, ``O2`` na prawo.
+---
+map_way: 34357303
+---
+vim: ft=markdown tw=80 ts=4 sts=4 sw=4 et

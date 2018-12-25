@@ -1,4 +1,6 @@
-title: Parafia św. Franciszka z Asyżu na Okęciu
+title: Kościół pw. Matki Bożej Loretańskiej
+---
+subtitle: Parafia św. Franciszka z Asyżu na Okęciu
 ---
 sort_key: 10
 ---
@@ -7,23 +9,6 @@ body:
 - http://archidiecezja.warszawa.pl/archidiecezja/struktura/parafie/?a=644
 - http://www.franciszek-okecie.pl/
 
----
-churches:
-
-#### church ####
-title: Kościół pw. Matki Bożej Loretańskiej
-----
-map:
-
-##### osm-way #####
-way: 35023474
------
-zoomlevel: 14
------
-border_id: 9576
-----
-body:
-
 ## zakrystia
 Jest na górze podwójna zakrystia (dwa osobne pomieszczenia, dla celebransów i
 dla służby) normalnie obsługująca kościół górny i dolny.
@@ -31,3 +16,11 @@ dla służby) normalnie obsługująca kościół górny i dolny.
 ## dolny kościół
 Jest z tyłu mała zakrystia neokatechumenalna. Wyjście z głównej zakrystii jest
 prosto do prezbiterium, więc jeśli się da, należy skorzystać z małej.
+---
+map_way: 35023474
+---
+map_zoomlevel: 14
+---
+map_border: 9576
+---
+vim: ft=markdown tw=80 ts=4 sts=4 sw=4 et

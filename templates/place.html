@@ -1,4 +1,15 @@
-{% extends "layout-map.html" %}
+{% extends 'layout.html' %}
+
+{% set has_map = this.map_way or this.map_node %}
+{% set default_zoomlevel = 14 %}
+
+{% if has_map %}
+  {% block head %}
+    <link rel="stylesheet" href="{{ '/static/maps/leaflet.css'|url }}" />
+    <script type="text/javascript" src="{{ '/static/maps/leaflet.js'|url }}"></script>
+    <script type="text/javascript" src="{{ '/static/maps/maps.js'|url }}"></script>
+  {% endblock %}
+{% endif %}
 
 {% block body %}
   <article>
@@ -9,11 +20,29 @@
       {% endif %}
     </header>
 
-    {{ this.map }}
+    {% if has_map %}
+      {% if this.map_way %}
+        {% set cssid = 'map-way-%d'|format(this.map_way) -%}
+        {% set addfunc = 'addOSMWay' %}
+      {% elif this.map_node %}
+        {% set cssid = 'map-node-%d'|format(this.map_node) -%}
+        {% set addfunc = 'addOSMNode' %}
+      {% endif %}
+
+      <div id="{{ cssid }}" class="map"></div>
+      <script type="text/javascript">
+        var map = createMapnikMap('{{ cssid }}');
+        {{ addfunc }}(map,
+          {{ this.map_way or this.map_node }},
+          {{ this.map_zoomlevel or default_zoomlevel }});
+      {%- if this.map_border %}
+        addGeoJSON(map, 'border-{{ this.map_border }}.json', borderOptions);
+      {%- endif %}
+      </script>
+    {% endif %}
+
     {{ this.body }}
   </article>
-
-  {{ this.churches }}
 {% endblock %}
 
-{#- vim: set ts=2 sts=2 sw=2 et : #}
+{#- vim: set ft=jinja ts=2 sts=2 sw=2 et : #}

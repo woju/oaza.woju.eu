@@ -1,24 +1,12 @@
-title: Parafia św. Wawrzyńca DM i św. Kazimierza Królewicza w Rajczy
+title: Kościół pw. św. Wawrzyńca DM i św. Kazimierza Królewicza
+---
+subtitle: Parafia św. Wawrzyńca DM i św. Kazimierza Królewicza w Rajczy
 ---
 title_menu: Rajcza
 ---
 body:
 
 - http://diecezja.bielsko.pl/parafia/124,rajcza_w_wawrzyca_dm_i_w_kazimierza_krlewicza
----
-churches:
-
-#### church ####
-title: Kościół pw. św. Wawrzyńca DM i św. Kazimierza Królewicza
-----
-map:
-
-##### osm-way #####
-way: 238422309
------
-zoomlevel: 13
-----
-body:
 
 Sanktuarium Matki Bożej Kazimierzowskiej. Tutaj są dni wspólnoty w czasie oaz wakacyjnych.
 
@@ -51,29 +39,9 @@ Sanktuarium Matki Bożej Kazimierzowskiej. Tutaj są dni wspólnoty w czasie oaz
 - kolekta na potrzeby sanktuarium
 - puryfikacja na starym ołtarzu
 
-#### church ####
-title: Kaplica pw. Miłosierdzia Bożego w Nickulinie
-----
-map:
-
-##### osm-way #####
-way: 164523684
------
-zoomlevel: 12
-----
-body:
-
-W prezbiterium wzdłuż ścian wchodzi 20 osób, 21. jest ceremoniarz obok
-przewodniczącego.
-
-Mikrofony ledwo sięgają na długość. Ten z chóru można zdjąć i dać scholi, która
-zwykle jest po lewej stronie ołtarza zaraz na początku nawy.
-
-Organy analogowe, nawet da się słuchać.
-
-#### Celebracja światła i wody
-
-Można wyjść przez bramę, dalej w lewo do kapliczki, za kapliczką w prawo żółtym
-szlakiem, po ok. 100 m za mostkiem w prawo w krzaki i po 50 m jest mały ciek i
-przejście po kamieniach. Przewodniczący i posługujący mogą przejść na drugą
-stronę, reszta się pomieści po tej samej (nawet 50 osób).
+---
+map_way: 238422309
+---
+map_zoomlevel: 13
+---
+vim: ft=markdown tw=80 ts=4 sts=4 sw=4 et

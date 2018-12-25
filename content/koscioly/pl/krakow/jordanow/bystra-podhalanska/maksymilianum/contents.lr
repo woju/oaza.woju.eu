@@ -10,37 +10,9 @@ Odpust jest 14.08., wtedy przyjadą pewnie jacyś ludzie związani z&nbsp;domem 
 odległość. Msza jest razem z&nbsp;nimi, z&nbsp;formularza o&nbsp;Maksymilianie
 (w&nbsp;wariancie na uroczystość!).
 
-# Celebracja światła i wody
+# Kaplica górna
 
-- po Modlitwie po Komunii wychodzimy z&nbsp;domu na dziedziniec, gdzie zapalamy
-  świece jeszcze raz, ustawiamy procesję, celebrans mówi wezwanie
-  i&nbsp;ruszamy, śpiewając „Matko, która nas znasz”
-- idziemy na dolny parking, przez tylną bramę w&nbsp;prawo, potem w&nbsp;lewo do
-  brodu
-- służba liturgiczna i&nbsp;celebrans ią na przyczółek mostu na górę, lud
-  gromadzi się niżej na drodze do brodu
-- wieczorem mogą grać na orliku, więc trzeba uważać na samochody (potrzebne
-  radiostacje)
-- otwarcie bramy trzeba uzgodnić z&nbsp;siostrami
-
-[osrodek]: /osrodki/bystra-podhalanska/
-
----
-churches:
-
-#### church ####
-title: kaplica górna
-----
-map:
-
-##### osm-way #####
-way: 389065433
------
-zoomlevel: 13
------
-body:
-
-# Przestrzeń
+## Przestrzeń
 
 - jeśli schola używa mikrofon, to do miejsca przewodniczenia można wziąć ten
   z&nbsp;ambony
@@ -51,21 +23,17 @@ body:
     - sprzęt jest za drzwiami naprzeciwko głównego wejścia do kaplicy
 - okna się otwierają, można odłożyć na oścież i&nbsp;zrobić przeciąg
 
-# Procesja z Ewangeliarzem
+## Procesja z Ewangeliarzem
 
 Da się, jest Ewangeliarz, który potem trzeba dać albo za winkiel, albo na pulpit
 może przed amboną (pewnie stoi przy fisharmonii).
 
-# Wystawienie
+## Wystawienie
 
 - można użyć podstawki, ale nie trzeba
 - szklane lampki
 
-----
-#### church ####
-title: kaplica dolna Matki Kościoła
-----
-body:
+# Kaplica Matki Kościoła (dolna)
 
 Tu jest świetne miejsce do spowiedzi, bo po pierwsze, jest spowiednica,
 a&nbsp;po drugie, nikt tu nie chodzi. Można też jej użyć na [celebrację
@@ -84,5 +52,25 @@ W&nbsp;kaplicy jest lokalna kolekcja relikwii, których jest nazbierane jak nie
 przymierzając pokemonów pod hasłem „złap je wszystkie”.
 
 [celebracja-onz1]: /rekolekcje/onz-1/dzien-11/#celebracja-sakramentu-pojednania
+
+# Celebracja światła i wody
+
+- po Modlitwie po Komunii wychodzimy z&nbsp;domu na dziedziniec, gdzie zapalamy
+  świece jeszcze raz, ustawiamy procesję, celebrans mówi wezwanie
+  i&nbsp;ruszamy, śpiewając „Matko, która nas znasz”
+- idziemy na dolny parking, przez tylną bramę w&nbsp;prawo, potem w&nbsp;lewo do
+  brodu
+- służba liturgiczna i&nbsp;celebrans ią na przyczółek mostu na górę, lud
+  gromadzi się niżej na drodze do brodu
+- wieczorem mogą grać na orliku, więc trzeba uważać na samochody (potrzebne
+  radiostacje)
+- otwarcie bramy trzeba uzgodnić z&nbsp;siostrami
+
+[osrodek]: /osrodki/bystra-podhalanska/
+
+---
+map_way: 389065433
+---
+zoomlevel: 13
 ---
 vim: ft=markdown tw=80 ts=4 sts=4 sw=4 et

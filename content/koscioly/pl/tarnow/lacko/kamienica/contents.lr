@@ -1,4 +1,6 @@
-title: Parafia Przemienienia Pańskiego i Nawiedzenia NMP w Kamienicy
+title: Kościół pw. Przemienienia Pańskiego i Nawiedzenia NMP w Kamienicy
+---
+subtitle: Parafia Przemienienia Pańskiego i Nawiedzenia NMP w Kamienicy
 ---
 title_menu: Kamienica
 ---
@@ -8,20 +10,6 @@ body:
 - [wizytówka na stronie diecezji](http://www.kamienica-wiz.diecezja.tarnow.pl/)
 
 Odpust: **6 sierpnia** (w&nbsp;trzecim turnusie)
----
-churches:
-
-#### church ####
-title: Kościół pw. Przemienienia Pańskiego i Nawiedzenia NMP w Kamienicy
-----
-map:
-
-##### osm-way #####
-way: 228473050
------
-zoomlevel: 13
-----
-body:
 
 - można się dogadać z&nbsp;siostrami, które są miłe, uczynne i&nbsp;wyrozumiałe
   (szczególnie kiedy zakrystianka jedzie na urlop &mdash;&nbsp;zostaje
@@ -35,11 +23,15 @@ body:
 - prezbiterium jest małe, ale wystarcza
 - miejsce przewodniczenia jest na ścianie, mikrofon można wziąć z&nbsp;ołtarza
 
-## miejscowe zwyczaje
+# miejscowe zwyczaje
 - procesja wejścia jest długa, wyjścia krótka
 
-## Celebracja światła i wody
+# Celebracja światła i wody
 
 Można pójść albo nad strumień, albo do fontanny w&nbsp;parku nad strumieniem.
+---
+map_way: 228473050
+---
+map_zoomlevel: 13
 ---
 vim: ft=markdown tw=80 ts=4 sts=4 sw=4 et

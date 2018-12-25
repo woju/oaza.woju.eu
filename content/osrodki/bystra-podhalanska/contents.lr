@@ -2,13 +2,6 @@ title: Dom rekolekcyjny służby liturgicznej i Ruchu Światło-Życie „Maksym
 ---
 title_menu: Bystra Podhalańska
 ---
-map:
-
-#### osm-way ####
-way: 389065433
-----
-zoomlevel: 13
----
 body:
 
 Na miejscu są [dwie kaplice][kaplice] (górna i&nbsp;dolna). Kościół parafialny
@@ -65,5 +58,9 @@ w&nbsp;Makowie.
 [kaplice]: /koscioly/pl/krakow/jordanow/bystra-podhalanska/maksymilianum/
 [parafia]: /koscioly/pl/krakow/jordanow/bystra-podhalanska/
 
+---
+map_way: 389065433
+---
+map_zoomlevel: 13
 ---
 vim: ft=markdown tw=80 ts=4 sts=4 sw=4 et

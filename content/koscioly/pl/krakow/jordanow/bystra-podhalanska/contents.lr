@@ -1,4 +1,6 @@
-title: Parafia św. Marcina w Bystrej Podhalańskiej
+title: Kościół św. Marcina w Bystrej Podhalańskiej
+---
+subtitle: Parafia św. Marcina w Bystrej Podhalańskiej
 ---
 title_menu: Bystra Podhalańska
 ---
@@ -10,20 +12,6 @@ Miejscowi są sympatyczni. Jak się przyjdzie do zakrystii to coś tam dadzą,
 pewnie czytanie.
 
 Wikary jest moderatorem Ruchu i&nbsp;SL chyba w&nbsp;dekanacie.
----
-churches:
-
-#### church ####
-title: kościół św. Marcina
-----
-map:
-
-##### osm-way #####
-way: 239955649
------
-zoomlevel: 12
-----
-body:
 
 Wystawienie jest na tabernakulum.
 
@@ -34,29 +22,9 @@ używają kadzidła i&nbsp;Ewangeliarza.
 Na większe uroczystości (widziałem to na Wniebowzięcie NMP 15.08.) bywa oprawa
 góralska. Wtedy czytania i&nbsp;psalm biorą góralicki i&nbsp;nie ma się czym
 dzielić.
-
-----
-#### church ####
-title: kaplica cmentarna
-----
-map:
-
-##### osm-way #####
-way: 344345866
------
-zoomlevel: 14
-----
-body:
-
-Raz na miesiąc (w&nbsp;sezonie) o&nbsp;11:00 jest Msza na cmentarzu. Zwyczaj
-jest podobno od zawsze (ja mam podejrzenie, że korzenie mogą być pogańskie).
-Rodziny stają przy rodzinnych grobach. Przed ołtarzem jest kilka ławek, głównie
-dla ministrantów. Msza jest raczej polowa, lepiej wziąć gorszą albę. Uwzględnij
-pogodę (kurtka lub okulary przeciwsłoneczne).
-
-Czytanie jest od ołtarza. Przygotowując drugie sprawdź jak się kończy psalm, bo
-dłużej się idzie.
-
-Na koniec jest Anioł Pański, dziwny.
+---
+map_way: 239955649
+---
+map_zoomlevel: 12
 ---
 vim: ft=markdown tw=80 ts=4 sts=4 sw=4 et

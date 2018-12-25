@@ -2,14 +2,10 @@ title: Bazylika mniejsza Znalezienia Krzyża Świętego i Narodzenia Najświęts
 ---
 title_menu: Bazylika
 ---
-map:
-
-#### osm-way ####
-way: 208061805
-----
-zoomlevel: 17
----
 body:
+
+- https://pl.wikipedia.org/wiki/Bazylika_jasnogórska
+- [Zdjęcia z 39 KO](http://www.jasnagora.com/galZdjecMini.php?ID=2243&idz=21)
 
 Poniższe notatki są z Kongregacji, więc niektóre elementy są charakterystyczne
 tylko dla niej. Przejrzyj [materiały ogólnojasnogórskie](..) i [ceremoniał
@@ -207,5 +203,9 @@ Krzyż odnosi się do zakrystii. Świece lądują na stopniach przed ołtarzem
 (ceremoniał KO przewiduje, że się je gasi i&nbsp;stawia pod ścianą, ale to można
 zrobić inaczej).
 
+---
+map_way: 208061805
+---
+map_zoomlevel: 17
 ---
 vim: ft=markdown tw=80 ts=4 sts=4 sw=4 et

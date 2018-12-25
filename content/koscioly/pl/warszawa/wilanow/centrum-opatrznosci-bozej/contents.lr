@@ -1,27 +1,11 @@
-title: Parafia Opatrzności Bożej w Wilanowie
+title: Świątynia Opatrzności Bożej
+---
+subtitle: kostka Rubika z wyciskaczem do cytryn
 ---
 body:
 
 - http://archwwa.pl/parafie/warszawa-opatrznosci-bozej-w-wilanowie/
 - http://parafiaopatrznoscibozej.pl/
----
-churches:
-
-#### church ####
-title: Świątynia Opatrzności Bożej
-----
-subtitle: kostka Rubika z wyciskaczem do cytryn
-----
-map:
-
-##### osm-way #####
-way: 62343341
------
-zoomlevel: 13
------
-border_id: 9602
-----
-body:
 
 # Ogólne
 
@@ -136,5 +120,11 @@ tam są czujniki dymu.
         http://remekdabrowski.pl/2013/04/swiatynia.html</a></figcaption>
 </figure>
 
+---
+map_way: 62343341
+---
+map_zoomlevel: 13
+---
+map_border: 9602
 ---
 vim: ft=markdown tw=80 ts=4 sts=4 sw=4 et

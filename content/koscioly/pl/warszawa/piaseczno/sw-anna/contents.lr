@@ -1,3 +1,5 @@
+title: Kościół św. Anny w Piasecznie
+---
 title: Parafia św. Anny w Piasecznie
 ---
 sort_key: 0
@@ -6,22 +8,6 @@ body:
 
 - https://archwwa.pl/parafie/piaseczno-sw-anny/
 - http://sw-anna.pl/
----
-churches:
-
-#### church ####
-title: Kościół św. Anny
-----
-map:
-
-##### osm-way #####
-way: 235876487
------
-zoomlevel: 14
------
-border_id: 9730
-----
-body:
 
 # Przestrzeń
 
@@ -56,6 +42,11 @@ body:
 - Na sumie (10:00L) po Ewangelii a&nbsp;przed homilią śpiewa się jeszcze
   aklamację do Ducha Świętego. Lud Boży wyraża nią dezaprobatę dla poziomu
   lokalnej homiletyki i&nbsp;prosi Ducha Świętego, żeby coś z&nbsp;tym zrobił.
-
+---
+map_way: 235876487
+---
+map_zoomlevel: 14
+---
+map_border: 9730
 ---
 vim: ft=markdown tw=80 ts=4 sts=4 sw=4 et

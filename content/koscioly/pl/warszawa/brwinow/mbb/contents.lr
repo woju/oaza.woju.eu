@@ -1,21 +1,7 @@
-title: Parafia Matki Bożej Bolesnej w Milanówku
----
-churches:
-
-#### church ####
 title: Kościół pw. Matki Bożej Bolesnej
-----
-subtitle: 
-----
-map:
-
-##### osm-way #####
-way: 174989806
------
-zoomlevel: 
------
-border_id: 9716
-----
+---
+subtitle: Parafia Matki Bożej Bolesnej w Milanówku
+---
 body:
 
 # Przestrzeń
@@ -91,5 +77,9 @@ próbować u&nbsp;sióstr. Do domu parafialnego warto mieć ze 2 kartki
 z&nbsp;napisem „krąg liturgiczny”, w&nbsp;tym jedna ze strzałką w&nbsp;lewo.
 W&nbsp;każdym wypadku ok. 15 kartek z&nbsp;tekstami.
 
+---
+map_way: 174989806
+---
+map_border: 9716
 ---
 vim: ft=markdown tw=80 ts=4 sts=4 sw=4 et

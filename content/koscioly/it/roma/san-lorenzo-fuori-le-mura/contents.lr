@@ -4,13 +4,6 @@ subtitle: San Lorenzo fuori le Mura
 ---
 sort_key: 11
 ---
-map:
-
-#### osm-way ####
-way: 51701750
-----
-zoomlevel: 13
----
 body:
 
 - http://www.basilicasanlorenzo.it/
@@ -45,3 +38,9 @@ właśnie na taki wariant.
   ksiądz najpierw całuje ołtarz, potem odchodzi i się kłania
 
 - można zamienić Pf z jutrzejszą
+---
+map_way: 51701750
+---
+map_zoomlevel: 13
+---
+vim: ft=markdown tw=80 ts=4 sts=4 sw=4 et

@@ -4,13 +4,6 @@ subtitle: San Pietro in Vaticano
 ---
 sort_key: 2
 ---
-map:
-
-#### osm-way ####
-way: 205541334
-----
-zoomlevel: 13
----
 body:
 
 - [kontakt](http://www.vatican.va/various/basiliche/san_pietro/index_it.htm)
@@ -60,3 +53,9 @@ strony ołtarza.
 Cr, MK, L, Ps na lewą stronę; O na prawą.
 
 Komunia święta koniecznie poza balaskami, bo przejście jest za wąskie.
+---
+map_way: 205541334
+---
+map_zoomlevel: 13
+---
+vim: ft=markdown tw=80 ts=4 sts=4 sw=4 et
