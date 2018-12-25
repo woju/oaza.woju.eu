@@ -1,0 +1,9 @@
+sort_key jest według dat, ale:
+- styczeń jest 21, nie 01, jak w PESEL-ach
+- jedna cyfra więcej, żeby można było zrobić niedzielę w Oktawie Wielkanocy
+
+czyli:
+- 12250 Boże Narodzenie
+- 12251 Niedziela w Oktawie Wielkanocy
+- 12260 drugi dzień świąt
+- 21060 Objawienie Pańskie
