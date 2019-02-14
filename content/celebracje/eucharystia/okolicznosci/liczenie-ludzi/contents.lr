@@ -1,0 +1,54 @@
+title: Liczenie ludzi
+---
+sort_key: 1000
+---
+body:
+
+Raz na jakiś czas się liczy ludzi, którzy przyszli do kościoła. Prowadzone są
+dwie statystyki:
+- *dominicantes*, czyli ludzi, którzy po prostu przyszli do kościoła;
+- *communicantes*, czyli ludzi, którzy przystąpili do Komunii.
+
+Osobno liczy się kobiety i&nbsp;mężczyzn. Wybierana jest jakaś w&nbsp;miarę
+normalna niedziela (a&nbsp;nie duża uroczystość, żeby nie było odchyłek). Liczy
+się na każdej Mszy i&nbsp;sumuje. [Więcej o&nbsp;badaniach][iskk-wiki-badania].
+
+Statystyka prowadzona jest z&nbsp;kilku powodów, ale głównie z&nbsp;dwóch:
+- dla [Instytutu Statystyki Kościoła Katolickiego][iskk]
+  ([Wikipedia][iskk-wiki]), który bada religijność populacji;
+- żeby wyznaczyć podatek, który parafia płaci diecezji
+  (np.&nbsp;w&nbsp;Archidiecezji jest płacony za średnią liczbę *dominicantes*
+  z&nbsp;ostatnich pięciu lat).
+
+# Technika
+
+Licząc ludzi nie należy się bardzo przejmować, że się pomyli o&nbsp;jeden.
+Ostatnio bywało też tak, że wybierali niedzielę późną jesienią, gdy ludzie byli
+ubrani na cebulkę i&nbsp;czasem ciężko było się połapać, czy to kobieta czy
+mężczyzna (zwłaszcza chłopiec czy dziewczynka).
+
+Liczy się w&nbsp;pamięci i&nbsp;zapisuje później, chociaż dobrze jest sobie
+pomóc palcami. Ja na palcach liczę dziesiątki, bo prawie nigdy nie wychodzi
+więcej niż 100.
+
+## Communicantes
+
+Ministrantów z&nbsp;patenami należy pouczyć, że jest liczenie. Przed Mszą się
+ustala, że ministrant liczy kobiety, a&nbsp;szafarz mężczyzn. Ewentualnie na
+odwrót, ale przeważnie tak, bo kobiet ich więcej i&nbsp;żeby nie było
+niezręcznie, że ksiądz się ogląda na dziewczyny. Po Komunii trzeba pójść do
+zakrystii i&nbsp;zapisać wynik pomiaru. Dobrze jest to zrobić jak najszybciej.
+
+## Dominicantes
+
+Dominicantes liczy się wychodzących z&nbsp;kościoła (bo niektórzy się mogą
+spóźnić). Obstawia się wszystkie wyjścia (albo furtki, jeśli teren kościoła jest
+ogrodzony) po dwóch i&nbsp;liczą, jeden mężczyzn, drugi kobiety. Też się trzeba
+wcześniej dogadać, kto gdzie idzie i&nbsp;kto kogo liczy.
+
+[iskk]: http://www.iskk.pl/
+[iskk-wiki]: https://pl.wikipedia.org/wiki/Instytut_Statystyki_Ko%C5%9Bcio%C5%82a_Katolickiego
+[iskk-wiki-badania]: https://pl.wikipedia.org/wiki/Dominicantes_i_communicantes_w_Polsce
+
+---
+vim: ft=markdown tw=80 ts=4 sts=4 sw=4 et
