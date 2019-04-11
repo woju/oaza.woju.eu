@@ -2,7 +2,7 @@ title: Ministrant księgi
 ---
 body:
 
-Zob. [opis funkcji](/celebracje/eucharystia/ministranci/ksiega/)
+Zob. [opis funkcji](/funkcje/ksiega/)
 i&nbsp;[szkoła C](/rekolekcje/onz-2/dzien-3/#szkoa-liturgiczna-c).
 ---
 checklist:
@@ -42,17 +42,20 @@ ME
 akt pokuty, jeśli 3/4
 błogosławieństwo/modlitwa nad ludem
 #### checklist ####
-title: obsługa mszału (z Jasnej Góry)
+title: obsługa ksiąg (z Jasnej Góry)
 ----
 checklist:
 
 przed Mszą: położyć Mszał
 po kolekcie: zdjąć Mszał, położyć lekcjonarz
 po 2. czytaniu: zdjąć lekcjonarz
-po Ewangelii: położyć kartkę z homilią
-po homilii (i po credo): zdjąć homilię, położyć modlitwę wiernych
+po Ewangelii: położyć kartkę z homilią (i/lub lekcjonarz)
+jeśli jest czwarte czytanie (celebracje): wrócić lekcjonarz
+po homilii (i&nbsp;po credo): zdjąć homilię, położyć modlitwę wiernych
 po modlitwie wiernych: zdjąć modlitwę
-w czasie Sanctus: rozdać mszaliki
+w&nbsp;czasie Sanctus: rozdać mszaliki
 po amen po doksologii: zebrać mszaliki
 po Komunii: położyć Mszał
 przed błogosławieństwem: podać Mszał
+---
+vim: ft=markdown tw=80 ts=4 sts=4 sw=4 et
