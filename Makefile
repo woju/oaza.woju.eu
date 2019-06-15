@@ -1,4 +1,4 @@
-LEKTOR_OUTPUT_PATH = /var/www/oaza.woju.eu/html
+LEKTOR_OUTPUT_PATH = ./html
 export LEKTOR_OUTPUT_PATH
 RM ?= rm -f
 
@@ -13,4 +13,4 @@ rebuild:
 
 check:
 	./bin/check.py
-.PHONY: rebuild check
+.PHONY: check
